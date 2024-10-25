@@ -1,13 +1,18 @@
-import "../global.css";
-
 import { Slot } from "expo-router";
+
+import "@/global.css";
+import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
+
+import "../global.css";
 
 import { SupabaseProvider } from "@/context/supabase-provider";
 
 export default function AppLayout() {
 	return (
-		<SupabaseProvider>
-			<Slot />
-		</SupabaseProvider>
+		<GluestackUIProvider mode="light">
+			<SupabaseProvider>
+				<Slot />
+			</SupabaseProvider>
+		</GluestackUIProvider>
 	);
 }

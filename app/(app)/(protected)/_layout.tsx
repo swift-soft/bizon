@@ -24,6 +24,7 @@ export default function ProtectedLayout() {
 				tabBarShowLabel: false,
 			}}
 		>
+			<Tabs.Screen name="leaderboard" options={{ title: "Leaderboard" }} />
 			<Tabs.Screen name="index" options={{ title: "Home" }} />
 			<Tabs.Screen name="company" options={{ title: "Company Overview" }} />
 			<Tabs.Screen name="settings" options={{ title: "Settings" }} />
