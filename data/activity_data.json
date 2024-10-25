@@ -1,0 +1,142 @@
+[
+    {
+        "date": "2024-10-05",
+        "sport": "Hiking",
+        "duration_minutes": 115,
+        "steps": 7799,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-06",
+        "sport": "Cycling",
+        "duration_minutes": 89,
+        "steps": 9389,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-07",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 6868,
+        "activity_level": "Lightly Exercised"
+    },
+    {
+        "date": "2024-10-08",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 14522,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-09",
+        "sport": "Swimming",
+        "duration_minutes": 91,
+        "steps": 5759,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-10",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 2123,
+        "activity_level": "Did Not Exercise"
+    },
+    {
+        "date": "2024-10-11",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 6571,
+        "activity_level": "Lightly Exercised"
+    },
+    {
+        "date": "2024-10-12",
+        "sport": "Cycling",
+        "duration_minutes": 64,
+        "steps": 7188,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-13",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 6293,
+        "activity_level": "Lightly Exercised"
+    },
+    {
+        "date": "2024-10-14",
+        "sport": "Yoga",
+        "duration_minutes": 116,
+        "steps": 6038,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-15",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 4347,
+        "activity_level": "Did Not Exercise"
+    },
+    {
+        "date": "2024-10-16",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 7420,
+        "activity_level": "Lightly Exercised"
+    },
+    {
+        "date": "2024-10-17",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 13052,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-18",
+        "sport": "Running",
+        "duration_minutes": 119,
+        "steps": 5232,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-19",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 11996,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-20",
+        "sport": "Yoga",
+        "duration_minutes": 106,
+        "steps": 6637,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-21",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 1182,
+        "activity_level": "Did Not Exercise"
+    },
+    {
+        "date": "2024-10-22",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 11372,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-23",
+        "sport": null,
+        "duration_minutes": 0,
+        "steps": 16531,
+        "activity_level": "Exercised"
+    },
+    {
+        "date": "2024-10-24",
+        "sport": "Yoga",
+        "duration_minutes": 96,
+        "steps": 8831,
+        "activity_level": "Exercised"
+    }
+]
