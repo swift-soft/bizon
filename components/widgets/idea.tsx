@@ -67,7 +67,7 @@ export default function IdeaBoxWidget() {
 						{/* Close Button */}
 						<Button
 							title="Done"
-							color={colors.main}
+							color="rgb(227, 124, 255)"
 							onPress={() => setModalVisible(false)}
 						/>
 					</View>
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
 	modalContainer: {
 		width: 300,
 		padding: 20,
-		backgroundColor: colors.lightBg,
+		backgroundColor: colors.mainBg,
 		borderRadius: 10,
 		alignItems: "center",
 	},
