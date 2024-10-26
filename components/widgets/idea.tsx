@@ -1,3 +1,4 @@
+import { colors } from "@/constants/colors";
 import React, { useState } from "react";
 import {
 	View,
@@ -56,7 +57,7 @@ export default function IdeaBoxWidget() {
 						{/* Close Button */}
 						<Button
 							title="Done"
-							color="#b08afb"
+							color={colors.main}
 							onPress={() => setModalVisible(false)}
 						/>
 					</View>
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		overflow: "hidden",
 	},
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
 	modalContainer: {
 		width: 300,
 		padding: 20,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		alignItems: "center",
 	},
@@ -121,6 +122,6 @@ const styles = StyleSheet.create({
 	},
 
 	button: {
-		color: "#b08afb",
+		color: colors.mainBg,
 	},
 });

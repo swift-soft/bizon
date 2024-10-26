@@ -1,4 +1,5 @@
 // Breathe.tsx
+import { colors } from "@/constants/colors";
 import React, { useEffect, useState } from "react";
 import {
 	StyleSheet,
@@ -58,7 +59,7 @@ const Breathe = ({ onClose }) => {
 			<TouchableOpacity
 				style={{ height: 100, width: 150, borderRadius: 75, marginTop: 30 }}
 			>
-				<Button color="#b08afb" title="Close" onPress={onClose} />
+				<Button color={colors.mainBg} title="Close" onPress={onClose} />
 			</TouchableOpacity>
 		</View>
 	);
@@ -70,7 +71,7 @@ const styles = StyleSheet.create({
 		height: "75%",
 		alignItems: "center",
 		justifyContent: "center",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		padding: 20,
 		borderRadius: 10,
 	},
@@ -83,7 +84,7 @@ const styles = StyleSheet.create({
 	timerText: {
 		fontSize: 30,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 	},
 	image: {
 		width: 150,

@@ -86,7 +86,7 @@ export default function Leaderboard() {
 					fill={progress} // Use calculated progress
 					tintColor="gold"
 					onAnimationComplete={() => console.log("onAnimationComplete")}
-					backgroundColor="#f8dbff"
+					backgroundColor={colors.lightBg}
 					rotation={0}
 					lineCap="round"
 				>
@@ -128,7 +128,7 @@ export default function Leaderboard() {
 					{/* Third place on the right */}
 					<View style={styles.podiumPosition}>
 						<Image source={topUsers[2].image} style={styles.podiumImage} />
-						<Ionicons name="trophy" size={36} color="#cd7f32" />
+						<Ionicons name="trophy" size={36} color={colors.bronze} />
 						<Text style={styles.podiumUserText}>{topUsers[2].name}</Text>
 						<View style={styles.podiumPointsContainer}>
 							<Text style={styles.podiumPointsText}>
@@ -193,11 +193,7 @@ const styles = StyleSheet.create({
 	fillText: {
 		fontSize: 18,
 		fontWeight: "bold",
-<<<<<<< HEAD
 		color: colors.mainBg, // Color for the text inside the circle
-=======
-		color: "#f8dbff", // Color for the text inside the circle
->>>>>>> 20e85586d122f4f1c62aaf93de1f1e6934b62edb
 	},
 
 	progressText: {

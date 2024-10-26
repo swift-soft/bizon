@@ -8,6 +8,7 @@ import { H1, Muted } from "@/components/ui/typography";
 import { Center } from "@/components/ui/center";
 import { Box } from "@/components/ui/box";
 import CustomGrid from "@/components/custom-grid";
+import { colors } from "@/constants/colors";
 
 export default function Home() {
 	return (
@@ -23,7 +24,7 @@ export default function Home() {
 const styles = StyleSheet.create({
 	mainContainer: {
 		flex: 1,
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 	},
 
 	// hiJimmyContainer: {
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
 
 	nameText: {
 		fontSize: 30,
-		color: "#f8dbff",
+		color: colors.lightBg,
 		fontWeight: "bold",
 	},
 });

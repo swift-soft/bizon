@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
 	item_icon_swipe: {
 		width: 50,
 		height: 50,
-		backgroundColor: "#fff",
+		backgroundColor: colors.whiteBg,
 		borderRadius: 50 * 0.5,
 		justifyContent: "center",
 		alignItems: "center",
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
 		resizeMode: "contain",
 	},
 	item_text_swipe: {
-		backgroundColor: "#fff",
+		backgroundColor: colors.whiteBg,
 		width: 56,
 		height: 30,
 		borderRadius: 15,
@@ -191,11 +191,11 @@ const styles = StyleSheet.create({
 	},
 	mainContainer: {
 		flex: 1,
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 	},
 	nameText: {
 		fontSize: 30,
-		color: "#f8dbff",
+		color: colors.lightBg,
 		fontWeight: "bold",
 	},
 
@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
 		justifyContent: "center",
 		alignItems: "center",
 		height: bottomViewHeight,
-		backgroundColor: "#fff",
+		backgroundColor: colors.whiteBg,
 		zIndex: 100,
 		borderTopColor: "#2ecc71",
 		borderTopWidth: 2,
@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
 	},
 
 	customizeContainer: {
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 	},
 });
 

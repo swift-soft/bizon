@@ -1,4 +1,5 @@
 // BreakModal.js
+import { colors } from "@/constants/colors";
 import React from "react";
 import { View, Text, Button, StyleSheet, Modal } from "react-native";
 
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
 	modalContainer: {
 		width: 300,
 		padding: 20,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		alignItems: "center",
 	},

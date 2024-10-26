@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
 import Breathe from "./breathe";
+import { colors } from "@/constants/colors";
 
 // Define the interface for your heart rate data
 interface HeartRateData {
@@ -111,7 +112,7 @@ function Heartbeat() {
 						</View>
 						<Text style={styles.modalText}>TAKE A BREATH!</Text>
 						<Button
-							color="#b08afb"
+							color={colors.mainBg}
 							title="BREATHE"
 							onPress={handleBreathePress}
 						/>
@@ -142,7 +143,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		overflow: "hidden",
 	},
@@ -172,7 +173,7 @@ const styles = StyleSheet.create({
 		padding: 20,
 		borderRadius: 10,
 		alignItems: "center",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 	},
 	modalText: {
 		fontSize: 20,

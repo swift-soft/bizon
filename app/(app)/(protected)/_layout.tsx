@@ -8,8 +8,8 @@ export default function ProtectedLayout() {
 	const { colorScheme } = useColorScheme();
 
 	// Define custom colors
-	const activeIconColor = "#b08afb"; // Color for active (focused) icons
-	const tabBarColor = "#f8dbff"; // Color for the tab bar
+	const activeIconColor = colors.mainBg; // Color for active (focused) icons
+	const tabBarColor = colors.lightBg; // Color for the tab bar
 
 	return (
 		<Tabs

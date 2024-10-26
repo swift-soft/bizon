@@ -1,3 +1,4 @@
+import { colors } from "@/constants/colors";
 import React from "react";
 
 import { Image, View, StyleSheet } from "react-native";
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		overflow: "hidden",
 	},

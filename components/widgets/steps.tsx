@@ -1,3 +1,4 @@
+import { colors } from "@/constants/colors";
 import React from "react";
 import { StyleSheet, Text } from "react-native";
 import { View } from "react-native-animatable";
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 10,
 		overflow: "hidden",
 	},
