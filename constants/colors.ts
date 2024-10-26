@@ -47,4 +47,5 @@ export const colors = {
 	lightBg: "#d2edf9",
 	whiteBg: "#ffffff",
 	bronze: "#cd7f32",
+	textDark: "#0b2842",
 };

@@ -5,6 +5,19 @@ import { colors } from "@/constants/colors";
 import Breathe from "./breathe";
 import { Ionicons } from "@expo/vector-icons";
 
+type Mood = "Positive" | "Negative" | "Neutral";
+
+type AdjustMoodProps = {
+	bmpThresholdWithSleep: number;
+	mood: Mood;
+};
+
+type CalculateBmpThresholdProps = {
+	bpm: number;
+	sleep_hours: number;
+	mood: Mood;
+};
+
 // Define the interface for your heart rate data
 interface HeartRateData {
 	date: string;
@@ -17,6 +30,37 @@ interface HeartRateData {
 	diastolic_bp: number;
 	stressed: boolean;
 }
+
+type MockData = {
+	todays_mood: Mood;
+};
+
+const mockData: MockData = {
+	todays_mood: "Positive",
+};
+
+const adjustMood = ({
+	bmpThresholdWithSleep,
+	mood,
+}: AdjustMoodProps): number => {
+	switch (mood) {
+		case "Positive":
+			return bmpThresholdWithSleep + 2;
+		case "Negative":
+			return bmpThresholdWithSleep - 2;
+		default:
+			return bmpThresholdWithSleep;
+	}
+};
+
+const calculateBmpThreshold = ({
+	bpm,
+	sleep_hours,
+	mood,
+}: CalculateBmpThresholdProps): number => {
+	const adjustSleepToBmp = (100 * (sleep_hours + 15)) / 23;
+	return adjustMood({ bmpThresholdWithSleep: adjustSleepToBmp, mood });
+};
 
 function Heartbeat() {
 	const [heartRateData, setHeartRateData] = useState<HeartRateData[]>([]);
@@ -36,10 +80,17 @@ function Heartbeat() {
 	}, []);
 
 	useEffect(() => {
-		const currentData = heartRateData[currentIndex]; // Current heart rate data
+		const currentData: HeartRateData | undefined = heartRateData[currentIndex];
 
-		// Show modal if heart rate exceeds 100
-		if (currentData && currentData.heart_rate > 100) {
+		if (
+			currentData &&
+			currentData.heart_rate >
+				calculateBmpThreshold({
+					bpm: currentData.heart_rate,
+					sleep_hours: currentData.sleep_hours,
+					mood: mockData.todays_mood,
+				})
+		) {
 			setShowModal(true);
 		} else {
 			setShowModal(false);

@@ -48,16 +48,6 @@ const users = [
 		points: 54,
 		image: require("../../../assets/img/woj.jpg"),
 	},
-	{
-		name: "Andrzej Duda",
-		points: 35,
-		image: require("../../../assets/img/man-642075_1920.jpg"),
-	},
-	{
-		name: "Michał Ninja",
-		points: 30,
-		image: require("../../../assets/img/man-642075_1920.jpg"),
-	},
 ];
 
 const GOAL_AMOUNT = 1000; // Total goal amount
@@ -95,8 +85,9 @@ export default function Leaderboard() {
 					)}
 				</AnimatedCircularProgress>
 				<Text style={styles.progressText}>
-					{TOTAL_POINTS} / {GOAL_AMOUNT} points raised
+					{TOTAL_POINTS} / {GOAL_AMOUNT}
 				</Text>
+				<Text>points raised</Text>
 			</View>
 
 			<ScrollView contentContainerStyle={styles.leaderboard}>
@@ -108,7 +99,7 @@ export default function Leaderboard() {
 						<Text style={styles.podiumUserText}>{topUsers[1].name}</Text>
 						<View style={styles.podiumPointsContainer}>
 							<Text style={styles.podiumPointsText}>
-								{topUsers[1].points} points
+								{topUsers[1].points} pts
 							</Text>
 						</View>
 					</View>
@@ -120,7 +111,7 @@ export default function Leaderboard() {
 						<Text style={styles.podiumUserText}>{topUsers[0].name}</Text>
 						<View style={styles.podiumPointsContainer}>
 							<Text style={styles.podiumPointsText}>
-								{topUsers[0].points} points
+								{topUsers[0].points} pts
 							</Text>
 						</View>
 					</View>
@@ -132,7 +123,7 @@ export default function Leaderboard() {
 						<Text style={styles.podiumUserText}>{topUsers[2].name}</Text>
 						<View style={styles.podiumPointsContainer}>
 							<Text style={styles.podiumPointsText}>
-								{topUsers[2].points} points
+								{topUsers[2].points} pts
 							</Text>
 						</View>
 					</View>
@@ -147,7 +138,9 @@ export default function Leaderboard() {
 						</View>
 						<View style={styles.userInfoContainer}>
 							<Text style={styles.userText}>{user.name}</Text>
-							<Text style={styles.pointsText}>{user.points} points</Text>
+							<Text style={styles.pointsText}>
+								<Text style={{ fontWeight: "bold" }}>{user.points}</Text> points
+							</Text>
 						</View>
 					</View>
 				))}
@@ -170,7 +163,7 @@ const styles = StyleSheet.create({
 
 	titleText: {
 		fontSize: 28,
-		color: colors.lightBg,
+		color: colors.textDark,
 	},
 
 	charityContainer: {
@@ -180,25 +173,26 @@ const styles = StyleSheet.create({
 
 	charityText: {
 		fontSize: 18,
-		color: colors.lightBg,
+		color: colors.textDark,
 	},
 
 	charityGoal: {
 		fontSize: 22,
 		fontWeight: "bold",
-		color: colors.lightBg,
+		color: colors.textDark,
 		marginBottom: 10,
 	},
 
 	fillText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: colors.light.foreground, // Color for the text inside the circle
+		color: colors.textDark, // Color for the text inside the circle
 	},
 
 	progressText: {
 		fontSize: 16,
-		color: colors.lightBg,
+		color: colors.textDark,
+		fontWeight: "bold",
 		marginTop: 5,
 	},
 
@@ -229,7 +223,7 @@ const styles = StyleSheet.create({
 	podiumUserText: {
 		fontSize: 16,
 		fontWeight: "bold",
-		color: colors.mainBg,
+		color: colors.textDark,
 		textAlign: "center",
 		margin: 4,
 		marginBottom: 8,
@@ -238,8 +232,9 @@ const styles = StyleSheet.create({
 	podiumPointsText: {
 		fontSize: 15,
 
-		color: colors.lightBg,
+		color: "#4f126e",
 		textAlign: "center",
+		fontWeight: "bold",
 		padding: 4,
 	},
 
@@ -252,10 +247,11 @@ const styles = StyleSheet.create({
 	leaderboard: {
 		flexGrow: 1,
 		minWidth: "90%",
-		backgroundColor: colors.lightBg,
+		backgroundColor: "#d6e0f5",
 		borderRadius: 26,
 		margin: 10,
 		alignItems: "center",
+		paddingBottom: 16,
 	},
 
 	userBox: {
@@ -272,7 +268,7 @@ const styles = StyleSheet.create({
 	rankText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: colors.mainBg,
+		color: colors.textDark,
 		width: 30,
 		textAlign: "center",
 	},
@@ -311,12 +307,12 @@ const styles = StyleSheet.create({
 	userText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: colors.mainBg,
+		color: colors.textDark,
 	},
 
 	pointsText: {
 		fontSize: 16,
-		color: "grey",
+		color: "#2f0b42",
 		marginTop: 2,
 	},
 });
