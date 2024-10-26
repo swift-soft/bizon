@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
-import Breathe from "./Breathe";
 import { colors } from "@/constants/colors";
+import Breathe from "./breathe";
+import { Ionicons } from "@expo/vector-icons";
 
 // Define the interface for your heart rate data
 interface HeartRateData {
@@ -45,16 +46,6 @@ function Heartbeat() {
 		}
 	}, [currentIndex, heartRateData]);
 
-	const handleNext = () => {
-		setCurrentIndex((prevIndex) =>
-			Math.min(prevIndex + 1, heartRateData.length - 1),
-		);
-	};
-
-	const handlePrevious = () => {
-		setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
-	};
-
 	const currentData = heartRateData.slice(
 		currentIndex,
 		currentIndex + itemsPerPage,
@@ -71,29 +62,22 @@ function Heartbeat() {
 
 	return (
 		<View style={styles.heartContainer}>
-			<Animatable.Text
-				animation="pulse"
-				easing="ease-out"
-				iterationCount="infinite"
-				style={styles.heartIcon}
-				direction="alternate"
-			>
-				❤️
-			</Animatable.Text>
+			<View style={styles.heartIconContainer}>
+				<Ionicons name="heart-outline" size={160} color="white" />
+			</View>
+
 			{currentData ? (
-				<View style={styles.dataContainer}>
-					<Text style={styles.heartRateText}>{currentData.heart_rate} bpm</Text>
-					<Text style={styles.stressedText}>
-						Stressed: {currentData.stressed ? "Yes" : "No"}
-					</Text>
+				<View style={styles.heartRateText}>
+					<Text style={styles.heartRateNumber}>{currentData.heart_rate}</Text>
+					<Text style={styles.heartRateBpm}>bpm</Text>
 				</View>
 			) : (
 				<Text>Loading...</Text>
 			)}
 
 			<Modal
+				transparent
 				visible={showModal}
-				transparent={true}
 				animationType="slide"
 				onRequestClose={() => setShowModal(false)}
 			>
@@ -142,18 +126,34 @@ const styles = StyleSheet.create({
 		width: 158,
 		alignItems: "center",
 		justifyContent: "center",
-		marginBottom: 10,
-		backgroundColor: colors.lightBg,
+		backgroundColor: "rgb(227, 124, 255)",
 		borderRadius: 10,
-		overflow: "hidden",
+		overflow: "visible",
+	},
+	heartIconContainer: {
+		top: 40,
 	},
 	heartIcon: {
 		textAlign: "center",
 		fontSize: 70,
 	},
 	heartRateText: {
+		position: "relative",
+		color: "white",
 		fontSize: 22,
-		textAlign: "center",
+		top: -75,
+		display: "flex",
+		alignItems: "center",
+		zIndex: -4,
+	},
+	heartRateNumber: {
+		color: "white",
+		fontSize: 42,
+	},
+	heartRateBpm: {
+		color: "white",
+		fontSize: 22,
+		top: -10,
 	},
 	stressedText: {
 		marginBottom: 6,
