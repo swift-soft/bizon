@@ -1,14 +1,6 @@
 import { colors } from "@/constants/colors";
 import React, { useState, useRef, useCallback } from "react";
-import {
-	Text,
-	TouchableOpacity,
-	StyleSheet,
-	View,
-	Image,
-	Dimensions,
-	SafeAreaView,
-} from "react-native";
+import { Text, Image, StyleSheet, View } from "react-native";
 import { AnySizeDragSortableView } from "react-native-drag-sort";
 import Widget from "./widgets/widget";
 import { Button } from "./ui/button";
@@ -21,8 +13,7 @@ import { IconLayoutDashboardFilled } from "@tabler/icons-react-native";
 import Heartbeat from "./widgets/Heartbeat";
 import StepsWidget from "./widgets/steps";
 
-// const { width } = Dimensions.get("window");
-const headerViewHeight = 50;
+const headerViewHeight = 100;
 const bottomViewHeight = 40;
 
 type WidgetType =
@@ -58,6 +49,7 @@ const CustomGrid = () => {
 	const [items, setItems] = useState(initialItems);
 	const [editing, setEditing] = useState(false);
 	const [movedKey, setMovedKey] = useState<string | null>(null);
+	const [points, setPoints] = useState(123); // Example points data
 	const sortableViewRef = useRef<AnySizeDragSortableView>(null);
 
 	const onDeleteItem = useCallback((index: number) => {
@@ -93,19 +85,31 @@ const CustomGrid = () => {
 
 	const renderHeaderView = (
 		<View style={styles.aheader}>
-			<View>
+			{/* User Greeting and Profile Image */}
+			<View style={styles.userInfoContainer}>
 				<Text style={styles.nameText}>Hi Jimmy</Text>
+				<Image
+					source={require("../assets/img/cris.jpg")} // replace with actual image URI
+					style={styles.userImage}
+				/>
 			</View>
-			<Button
-				className="w-[142px] rounded-full flex items-center flex-row gap-1 self-end"
-				variant="secondary"
-				size="sm"
-				onPress={() => setEditing((p) => !p)}
-				style={styles.customizeContainer}
-			>
-				<IconLayoutDashboardFilled color="black" size={20} />
-				<Text>{editing ? "Save" : "Customize"}</Text>
-			</Button>
+
+			{/* Points and Customize Button in One Container */}
+			<View style={styles.pointsAndCustomizeContainer}>
+				<View style={styles.pointsContainer}>
+					<Text style={styles.pointsText}>Points: {points}</Text>
+				</View>
+				<Button
+					className="w-[142px] rounded-full flex items-center flex-row gap-1"
+					variant="secondary"
+					size="sm"
+					onPress={() => setEditing((p) => !p)}
+					style={styles.customizeButton}
+				>
+					<IconLayoutDashboardFilled color="black" size={20} />
+					<Text>{editing ? "Save" : "Customize"}</Text>
+				</Button>
+			</View>
 		</View>
 	);
 
@@ -183,22 +187,48 @@ const styles = StyleSheet.create({
 	},
 	aheader: {
 		height: headerViewHeight,
-		flexDirection: "row",
+		flexDirection: "column",
 		justifyContent: "space-between",
-		alignItems: "flex-end",
+		alignItems: "flex-start",
+		padding: 10,
 		zIndex: 100,
-		paddingBottom: 10,
 	},
-	mainContainer: {
-		flex: 1,
-		backgroundColor: colors.mainBg,
+	userInfoContainer: {
+		flexDirection: "row",
+		alignItems: "center",
+		justifyContent: "space-between", // Aligns text on left, image on right
+		width: "100%", // Takes full header width
+		paddingHorizontal: 10, // Adds padding around
+		marginBottom: 10,
 	},
 	nameText: {
-		fontSize: 30,
+		fontSize: 24,
 		color: colors.lightBg,
 		fontWeight: "bold",
+		marginRight: 8,
 	},
-
+	userImage: {
+		width: 44,
+		height: 44,
+		borderRadius: 22,
+		marginLeft: 15, // Adds space between text and image
+	},
+	pointsAndCustomizeContainer: {
+		flexDirection: "row",
+		alignItems: "center",
+		marginTop: 5,
+	},
+	pointsContainer: {
+		backgroundColor: colors.lightBg,
+		width: 142,
+		paddingVertical: 5,
+		paddingHorizontal: 10,
+		borderRadius: 15,
+		marginRight: 20,
+	},
+	customizeButton: {
+		backgroundColor: colors.lightBg,
+	},
 	abottom: {
 		justifyContent: "center",
 		alignItems: "center",
@@ -212,10 +242,6 @@ const styles = StyleSheet.create({
 		color: "#333",
 		fontSize: 20,
 		fontWeight: "bold",
-	},
-
-	customizeContainer: {
-		backgroundColor: colors.lightBg,
 	},
 });
 
