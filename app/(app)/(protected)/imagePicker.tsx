@@ -96,7 +96,10 @@ export default function BeRealExample() {
 
 			{/* Display user's image (blurred if not posted) with button overlay */}
 			<View style={styles.userImageContainer}>
-				<TouchableOpacity onPress={() => image && openImage(image)}>
+				<TouchableOpacity
+					style={styles.imagePlaceholder}
+					onPress={() => image && openImage(image)}
+				>
 					<Image
 						source={
 							isPosted
@@ -105,14 +108,14 @@ export default function BeRealExample() {
 						}
 						style={[styles.userImage, !isPosted && styles.blurredImage]}
 					/>
-				</TouchableOpacity>
 
-				{/* Circular Button with Camera Icon */}
-				{!isPosted && (
-					<TouchableOpacity style={styles.cameraButton} onPress={takePhoto}>
-						<Icon name="camera-alt" size={30} color="#fff" />
-					</TouchableOpacity>
-				)}
+					{/* Circular Button with Camera Icon */}
+					{!isPosted && (
+						<TouchableOpacity style={styles.cameraButton} onPress={takePhoto}>
+							<Icon name="camera-alt" size={30} color="#fff" />
+						</TouchableOpacity>
+					)}
+				</TouchableOpacity>
 
 				{/* Editable Activity Text */}
 				<TouchableOpacity>
@@ -132,7 +135,7 @@ export default function BeRealExample() {
 
 			{/* Friends' Photos - Vertical Scroll */}
 			<ScrollView style={styles.imagesContainer}>
-				<Text style={styles.sectionTitle}>Friends' Activities</Text>
+				<Text style={styles.sectionTitle}>Coworkers' Activities</Text>
 				{friendsImages.map((friend) => (
 					<View key={friend.id} style={styles.friendContainer}>
 						<TouchableOpacity onPress={() => openImage(friend.image)}>
@@ -204,6 +207,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		marginVertical: 10,
 		justifyContent: "center",
+		position: "relative",
 	},
 	userImage: {
 		width: 200,
@@ -223,25 +227,22 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 	},
 	activityText: {
-		color: colors.dark,
+		color: colors.textDark,
 		fontSize: 16,
 		margin: 6,
 	},
-	cameraButton: {
-		position: "absolute",
-		bottom: 20,
-		right: "10%",
-		width: 60,
-		height: 60,
-		backgroundColor: colors.primaryText,
-		borderRadius: 30,
+
+	imagePlaceholder: {
+		position: "relative",
 		alignItems: "center",
 		justifyContent: "center",
-		elevation: 5,
-		shadowColor: "#000",
-		shadowOffset: { width: 0, height: 2 },
-		shadowOpacity: 0.5,
-		shadowRadius: 4,
+	},
+	cameraButton: {
+		position: "absolute",
+		width: 60,
+		height: 60,
+		alignItems: "center",
+		justifyContent: "center",
 	},
 	nameText: {
 		fontSize: 22,
@@ -252,7 +253,7 @@ const styles = StyleSheet.create({
 		textDecorationColor: "#000",
 	},
 	timeText: {
-		color: colors.dark,
+		color: colors.textDark,
 		fontSize: 14,
 		marginTop: 4,
 	},
