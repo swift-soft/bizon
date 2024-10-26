@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
-import Breathe from "./Breathe";
+import Breathe from "./breathe";
 import { colors } from "@/constants/colors";
 
 // Define the interface for your heart rate data
@@ -92,8 +92,8 @@ function Heartbeat() {
 			)}
 
 			<Modal
+				transparent
 				visible={showModal}
-				transparent={true}
 				animationType="slide"
 				onRequestClose={() => setShowModal(false)}
 			>
