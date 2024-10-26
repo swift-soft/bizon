@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
+<<<<<<< HEAD
+=======
+import Breathe from "./breathe";
+>>>>>>> 2b602954bac1feb9e23528c31623070d799692fe
 import { colors } from "@/constants/colors";
 import Breathe from "./breathe";
 import { Ionicons } from "@expo/vector-icons";
@@ -76,8 +80,8 @@ function Heartbeat() {
 			)}
 
 			<Modal
+				transparent
 				visible={showModal}
-				transparent={true}
 				animationType="slide"
 				onRequestClose={() => setShowModal(false)}
 			>
