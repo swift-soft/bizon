@@ -15,10 +15,6 @@ export default function Home() {
 			className="flex-1 bg-background p-4 gap-y-4 pt-12"
 			style={styles.mainContainer}
 		>
-			<View style={styles.hiJimmyContainer}>
-				<Text style={styles.nameText}>Hi Jimmy</Text>
-			</View>
-
 			<CustomGrid />
 		</SafeAreaView>
 	);

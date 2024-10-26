@@ -12,18 +12,17 @@ import {
 import { AnySizeDragSortableView } from "react-native-drag-sort";
 import Widget from "./widgets/widget";
 import { Button } from "./ui/button";
-import HeartRateWidget from "./widgets/heart-rate";
 import MoodTrackerWidget from "./widgets/mood-tracker";
 import NoteWidget from "./widgets/note";
 import TimerWidget from "./widgets/timer";
-import Breathe from "./widgets/Breathe";
 import IdeaBoxWidget from "./widgets/idea";
 import SleepWidget from "./widgets/sleep";
 import { IconLayoutDashboardFilled } from "@tabler/icons-react-native";
 import Heartbeat from "./widgets/Heartbeat";
-import BreakModal from "./BreakModal";
+import StepsWidget from "./widgets/steps";
+
 // const { width } = Dimensions.get("window");
-const headerViewHeight = 160;
+const headerViewHeight = 50;
 const bottomViewHeight = 40;
 
 type WidgetType =
@@ -31,9 +30,9 @@ type WidgetType =
 	| "mood-tracker"
 	| "note"
 	| "timer"
-	| "breathe"
 	| "idea-box"
-	| "sleep";
+	| "sleep"
+	| "steps";
 
 const initialItems: WidgetType[] = [
 	"heart-rate",
@@ -41,8 +40,8 @@ const initialItems: WidgetType[] = [
 	"note",
 	"timer",
 	"sleep",
-	"breathe",
 	"idea-box",
+	"steps",
 ];
 
 const typeToWidget: Record<WidgetType, React.ReactNode> = {
@@ -50,9 +49,9 @@ const typeToWidget: Record<WidgetType, React.ReactNode> = {
 	"mood-tracker": <MoodTrackerWidget />,
 	note: <NoteWidget />,
 	timer: <TimerWidget />,
-	// breathe: <Breathe />,
 	"idea-box": <IdeaBoxWidget />,
 	sleep: <SleepWidget />,
+	steps: <StepsWidget />,
 };
 
 const CustomGrid = () => {
@@ -66,11 +65,11 @@ const CustomGrid = () => {
 	}, []);
 
 	const renderItem = useCallback(
-		(item: WidgetType, index: number, isMoved: boolean) => (
+		(item: WidgetType, index: number | null, isMoved: boolean) => (
 			<Widget
 				id={item}
 				movedId={movedKey}
-				index={index}
+				index={index || 0}
 				editing={editing}
 				isMoved={isMoved}
 				onLongPress={
@@ -92,32 +91,38 @@ const CustomGrid = () => {
 		[movedKey, onDeleteItem, editing],
 	);
 
-	return (
-		<>
+	const renderHeaderView = (
+		<View style={styles.aheader}>
+			<View>
+				<Text style={styles.nameText}>Hi Jimmy</Text>
+			</View>
 			<Button
-				className="w-[142px] rounded-full mb-4 flex items-center flex-row gap-1 self-end"
+				className="w-[142px] rounded-full flex items-center flex-row gap-1 self-end"
 				variant="secondary"
 				size="sm"
 				onPress={() => setEditing((p) => !p)}
 				style={styles.customizeContainer}
 			>
 				<IconLayoutDashboardFilled color="black" size={20} />
-				<Text>Customize</Text>
+				<Text>{editing ? "Save" : "Customize"}</Text>
 			</Button>
-			<AnySizeDragSortableView
-				ref={sortableViewRef}
-				dataSource={items}
-				keyExtractor={(item) => item}
-				renderItem={renderItem}
-				onDataChange={(data, callback) => {
-					setItems(data);
-					callback();
-				}}
-				movedWrapStyle={styles.item_moved}
-				onDragEnd={() => setMovedKey(null)}
-				style={styles.widgetContainer}
-			/>
-		</>
+		</View>
+	);
+
+	return (
+		<AnySizeDragSortableView
+			ref={sortableViewRef}
+			dataSource={items}
+			keyExtractor={(item) => item}
+			renderHeaderView={renderHeaderView}
+			renderItem={renderItem}
+			onDataChange={(data, callback) => {
+				setItems(data);
+				callback();
+			}}
+			movedWrapStyle={styles.item_moved}
+			onDragEnd={() => setMovedKey(null)}
+		/>
 	);
 };
 
@@ -168,11 +173,8 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 	},
 	header: {
-		height: 48,
 		justifyContent: "center",
 		alignItems: "center",
-		borderBottomColor: "#2ecc71",
-		borderBottomWidth: 2,
 	},
 	header_title: {
 		color: "#333",
@@ -182,28 +184,18 @@ const styles = StyleSheet.create({
 	aheader: {
 		height: headerViewHeight,
 		flexDirection: "row",
-		borderBottomColor: "#2ecc71",
-		borderBottomWidth: 2,
+		justifyContent: "space-between",
+		alignItems: "flex-end",
 		zIndex: 100,
-		backgroundColor: "#fff",
+		paddingBottom: 10,
 	},
-	aheader_img: {
-		width: headerViewHeight * 0.6,
-		height: headerViewHeight * 0.6,
-		resizeMode: "cover",
-		borderRadius: headerViewHeight * 0.3,
-		marginLeft: 16,
-		marginTop: 10,
+	mainContainer: {
+		flex: 1,
+		backgroundColor: "#b08afb",
 	},
-	aheader_context: {
-		marginLeft: 8,
-		height: headerViewHeight * 0.4,
-		marginTop: 10,
-	},
-	aheader_title: {
-		color: "#333",
-		fontSize: 20,
-		marginBottom: 10,
+	nameText: {
+		fontSize: 30,
+		color: "#f8dbff",
 		fontWeight: "bold",
 	},
 
@@ -224,12 +216,6 @@ const styles = StyleSheet.create({
 
 	customizeContainer: {
 		backgroundColor: "#f8dbff",
-	},
-
-	widgetContainer: {
-		flex: 1,
-		backgroundColor: "red",
-		minWidth: 200,
 	},
 });
 
