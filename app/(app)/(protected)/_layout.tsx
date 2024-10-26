@@ -22,19 +22,6 @@ export default function ProtectedLayout() {
 			}}
 		>
 			<Tabs.Screen
-				name="leaderboard"
-				options={{
-					title: "Leaderboard",
-					tabBarIcon: ({ focused, size }) => (
-						<Ionicons
-							name={focused ? "trophy" : "trophy-outline"}
-							size={size}
-							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
-						/>
-					),
-				}}
-			/>
-			<Tabs.Screen
 				name="index"
 				options={{
 					title: "Home",
@@ -47,19 +34,35 @@ export default function ProtectedLayout() {
 					),
 				}}
 			/>
+
 			<Tabs.Screen
-				name="company"
+				name="leaderboard"
 				options={{
-					title: "Company Overview",
+					title: "Leaderboard",
 					tabBarIcon: ({ focused, size }) => (
 						<Ionicons
-							name={focused ? "business" : "business-outline"}
+							name={focused ? "trophy" : "trophy-outline"}
 							size={size}
 							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
 						/>
 					),
 				}}
 			/>
+
+			<Tabs.Screen
+				name="imagePicker"
+				options={{
+					title: "ImagePicker",
+					tabBarIcon: ({ focused, size }) => (
+						<Ionicons
+							name={focused ? "camera" : "camera-outline"}
+							size={size}
+							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
+						/>
+					),
+				}}
+			/>
+
 			<Tabs.Screen
 				name="settings"
 				options={{
