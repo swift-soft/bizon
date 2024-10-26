@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
 	fillText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: colors.mainBg, // Color for the text inside the circle
+		color: colors.light.foreground, // Color for the text inside the circle
 	},
 
 	progressText: {

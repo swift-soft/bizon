@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
 	},
 	nameText: {
 		fontSize: 24,
-		color: colors.lightBg,
+		color: colors.text,
 		fontWeight: "bold",
 		marginRight: 8,
 	},

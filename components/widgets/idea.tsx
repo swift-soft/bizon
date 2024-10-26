@@ -10,6 +10,7 @@ import {
 	TextInput,
 	Button,
 } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function IdeaBoxWidget() {
 	const [modalVisible, setModalVisible] = useState(false);
@@ -19,10 +20,19 @@ export default function IdeaBoxWidget() {
 		<View style={styles.moodContainer}>
 			{/* Main Image Trigger */}
 			<TouchableOpacity onPress={() => setModalVisible(true)}>
-				<Image
-					style={styles.image}
-					source={require("../../assets/img/idea.png")}
-				/>
+				<View style={{ top: 1 }}>
+					<Ionicons name="bulb-outline" size={120} color="white" />
+				</View>
+				<Text
+					style={{
+						color: "white",
+						fontSize: 20,
+						alignSelf: "center",
+						fontWeight: "500",
+					}}
+				>
+					Idea Box
+				</Text>
 			</TouchableOpacity>
 
 			{/* Modal for Mood Selection */}
@@ -74,7 +84,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: colors.lightBg,
+		backgroundColor: "#65DD99",
 		borderRadius: 10,
 		overflow: "hidden",
 	},

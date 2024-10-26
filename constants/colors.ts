@@ -42,7 +42,8 @@ export const colors = {
 		ring: "hsl(240, 4.9%, 83.9%)",
 	},
 
-	mainBg: "#A7C7E7",
+	mainBg: "#f7f9fd",
+	text: "#05131f",
 	lightBg: "#d2edf9",
 	whiteBg: "#ffffff",
 	bronze: "#cd7f32",

@@ -13,7 +13,7 @@ import { colors } from "@/constants/colors";
 export default function Home() {
 	return (
 		<SafeAreaView
-			className="flex-1 bg-background p-4 gap-y-4 pt-12"
+			className="flex-1 p-4 pt-12 bg-background gap-y-4"
 			style={styles.mainContainer}
 		>
 			<CustomGrid />
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 
 	nameText: {
 		fontSize: 30,
-		color: colors.lightBg,
+		color: colors.text,
 		fontWeight: "bold",
 	},
 });

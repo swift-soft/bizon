@@ -17,16 +17,26 @@ export default function StepsWidget() {
 				fill={progress} // Use calculated progress
 				tintColor="gold"
 				onAnimationComplete={() => console.log("onAnimationComplete")}
-				backgroundColor="rgb(189, 189, 189)"
+				backgroundColor="rgb(210, 210, 210)"
 				rotation={0}
 				lineCap="round"
 			>
 				{(fill) => (
-					<Text style={styles.fillText}>
-						{STEPS}/{GOAL} steps
-					</Text>
+					<>
+						<Text style={styles.fillText}>{STEPS} </Text>
+					</>
 				)}
 			</AnimatedCircularProgress>
+			<Text
+				style={{
+					color: "white",
+					fontSize: 20,
+					alignSelf: "center",
+					fontWeight: "500",
+				}}
+			>
+				Steps
+			</Text>
 		</View>
 	);
 }
@@ -38,7 +48,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: colors.lightBg,
+		backgroundColor: "#67DDCA",
 		borderRadius: 10,
 		overflow: "hidden",
 	},
@@ -50,8 +60,8 @@ const styles = StyleSheet.create({
 
 	fillText: {
 		textAlign: "center",
-		fontSize: 14,
+		fontSize: 27,
 		fontWeight: "bold",
-		color: "black", // Color for the text inside the circle
+		color: "white", // Color for the text inside the circle
 	},
 });

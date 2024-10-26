@@ -60,11 +60,11 @@ export default function TimerWidget() {
 		<View style={styles.timerContainer}>
 			<AnimatedCircularProgress
 				size={120}
-				width={12}
+				width={14}
 				fill={
 					resetted ? 100 : Math.min((currentSeconds / maxSeconds) * 100, 100)
 				}
-				tintColor="gold"
+				tintColor="#F1CD41"
 				onAnimationComplete={() => console.log("onAnimationComplete")}
 				backgroundColor="rgb(189, 189, 189)"
 				rotation={0}
@@ -79,7 +79,16 @@ export default function TimerWidget() {
 							onPress={() => setMaxSeconds((p) => p + 30)}
 							disabled={counting}
 						>
-							<Text>+</Text>
+							<Text
+								style={{
+									fontSize: 30,
+									color: "white",
+									fontWeight: "600",
+									top: 2,
+								}}
+							>
+								+
+							</Text>
 						</Button>
 						<Text style={styles.fillText}>
 							{formatSeconds(resetted ? maxSeconds : currentSeconds)}
@@ -91,7 +100,16 @@ export default function TimerWidget() {
 							onPress={() => setMaxSeconds((p) => p - 30)}
 							disabled={counting}
 						>
-							<Text>-</Text>
+							<Text
+								style={{
+									fontSize: 49,
+									color: "white",
+									top: -23,
+									fontWeight: "700",
+								}}
+							>
+								-
+							</Text>
 						</Button>
 					</View>
 				)}
@@ -99,7 +117,7 @@ export default function TimerWidget() {
 			<View style={styles.buttons}>
 				<Button
 					size="icon"
-					className="rounded-full"
+					className="bg-gray-700 rounded-full"
 					onPress={() => setCounting((p) => !p)}
 				>
 					<Ionicons
@@ -118,7 +136,7 @@ export default function TimerWidget() {
 						setCurrentSeconds(maxSeconds);
 					}}
 				>
-					<Ionicons name="stop" size={16} color="black" />
+					<Ionicons name="stop" size={16} color="#444" />
 				</Button>
 			</View>
 		</View>
@@ -132,7 +150,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: colors.lightBg,
+		backgroundColor: "#74CEFF",
 		borderRadius: 10,
 		overflow: "hidden",
 		padding: 6,
@@ -154,9 +172,9 @@ const styles = StyleSheet.create({
 
 	fillText: {
 		textAlign: "center",
-		fontSize: 14,
+		fontSize: 28,
 		fontWeight: "bold",
-		color: "black", // Color for the text inside the circle
+		color: "white", // Color for the text inside the circle
 	},
 
 	buttons: {

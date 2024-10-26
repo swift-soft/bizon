@@ -1,0 +1,5052 @@
+[
+	{
+		"timestamp": "2024-10-05T00:00:00",
+		"heart_rate": 56,
+		"hrv": 75,
+		"respiratory_rate": 18.86,
+		"spO2": 97.1,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:01:00",
+		"heart_rate": 74,
+		"hrv": 94,
+		"respiratory_rate": 17.39,
+		"spO2": 98.23,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:02:00",
+		"heart_rate": 68,
+		"hrv": 91,
+		"respiratory_rate": 12.25,
+		"spO2": 94.27,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:03:00",
+		"heart_rate": 54,
+		"hrv": 50,
+		"respiratory_rate": 19.88,
+		"spO2": 98.73,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:04:00",
+		"heart_rate": 74,
+		"hrv": 53,
+		"respiratory_rate": 12.62,
+		"spO2": 98.86,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:05:00",
+		"heart_rate": 57,
+		"hrv": 56,
+		"respiratory_rate": 19.48,
+		"spO2": 98.16,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:06:00",
+		"heart_rate": 71,
+		"hrv": 71,
+		"respiratory_rate": 15.57,
+		"spO2": 95.74,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:07:00",
+		"heart_rate": 52,
+		"hrv": 43,
+		"respiratory_rate": 17.06,
+		"spO2": 95.39,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:08:00",
+		"heart_rate": 54,
+		"hrv": 96,
+		"respiratory_rate": 15.53,
+		"spO2": 97.21,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:09:00",
+		"heart_rate": 64,
+		"hrv": 54,
+		"respiratory_rate": 19.91,
+		"spO2": 94.64,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:10:00",
+		"heart_rate": 61,
+		"hrv": 32,
+		"respiratory_rate": 15.63,
+		"spO2": 94.79,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:11:00",
+		"heart_rate": 71,
+		"hrv": 53,
+		"respiratory_rate": 13.77,
+		"spO2": 95.71,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:12:00",
+		"heart_rate": 76,
+		"hrv": 82,
+		"respiratory_rate": 16.3,
+		"spO2": 96.14,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:13:00",
+		"heart_rate": 51,
+		"hrv": 79,
+		"respiratory_rate": 17.36,
+		"spO2": 96.66,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:14:00",
+		"heart_rate": 70,
+		"hrv": 54,
+		"respiratory_rate": 12.89,
+		"spO2": 96.95,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:15:00",
+		"heart_rate": 52,
+		"hrv": 83,
+		"respiratory_rate": 16.51,
+		"spO2": 95.44,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:16:00",
+		"heart_rate": 72,
+		"hrv": 97,
+		"respiratory_rate": 12.33,
+		"spO2": 97.58,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:17:00",
+		"heart_rate": 79,
+		"hrv": 91,
+		"respiratory_rate": 13.7,
+		"spO2": 98.08,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:18:00",
+		"heart_rate": 60,
+		"hrv": 57,
+		"respiratory_rate": 14.83,
+		"spO2": 97.6,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:19:00",
+		"heart_rate": 59,
+		"hrv": 64,
+		"respiratory_rate": 16.39,
+		"spO2": 98.77,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:20:00",
+		"heart_rate": 76,
+		"hrv": 57,
+		"respiratory_rate": 14.47,
+		"spO2": 95.4,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:21:00",
+		"heart_rate": 76,
+		"hrv": 88,
+		"respiratory_rate": 14.78,
+		"spO2": 98.53,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:22:00",
+		"heart_rate": 58,
+		"hrv": 49,
+		"respiratory_rate": 15.23,
+		"spO2": 96.59,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:23:00",
+		"heart_rate": 52,
+		"hrv": 64,
+		"respiratory_rate": 12.52,
+		"spO2": 95.4,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:24:00",
+		"heart_rate": 70,
+		"hrv": 92,
+		"respiratory_rate": 17.86,
+		"spO2": 96.39,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:25:00",
+		"heart_rate": 69,
+		"hrv": 73,
+		"respiratory_rate": 16.13,
+		"spO2": 98.56,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:26:00",
+		"heart_rate": 77,
+		"hrv": 42,
+		"respiratory_rate": 19.26,
+		"spO2": 94.13,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:27:00",
+		"heart_rate": 58,
+		"hrv": 91,
+		"respiratory_rate": 17.73,
+		"spO2": 98.33,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:28:00",
+		"heart_rate": 76,
+		"hrv": 95,
+		"respiratory_rate": 12.97,
+		"spO2": 95.83,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:29:00",
+		"heart_rate": 64,
+		"hrv": 66,
+		"respiratory_rate": 16.39,
+		"spO2": 94.57,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:30:00",
+		"heart_rate": 78,
+		"hrv": 53,
+		"respiratory_rate": 12.43,
+		"spO2": 95.56,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:31:00",
+		"heart_rate": 69,
+		"hrv": 98,
+		"respiratory_rate": 14.58,
+		"spO2": 98.58,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:32:00",
+		"heart_rate": 71,
+		"hrv": 78,
+		"respiratory_rate": 17.98,
+		"spO2": 94.95,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:33:00",
+		"heart_rate": 78,
+		"hrv": 49,
+		"respiratory_rate": 18.77,
+		"spO2": 98.45,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:34:00",
+		"heart_rate": 63,
+		"hrv": 54,
+		"respiratory_rate": 15.05,
+		"spO2": 94.69,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:35:00",
+		"heart_rate": 69,
+		"hrv": 89,
+		"respiratory_rate": 13.64,
+		"spO2": 97.05,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:36:00",
+		"heart_rate": 75,
+		"hrv": 62,
+		"respiratory_rate": 16.75,
+		"spO2": 99.16,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:37:00",
+		"heart_rate": 68,
+		"hrv": 59,
+		"respiratory_rate": 12.43,
+		"spO2": 94.65,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:38:00",
+		"heart_rate": 76,
+		"hrv": 41,
+		"respiratory_rate": 18.63,
+		"spO2": 94.15,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:39:00",
+		"heart_rate": 74,
+		"hrv": 78,
+		"respiratory_rate": 16.51,
+		"spO2": 95.89,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:40:00",
+		"heart_rate": 63,
+		"hrv": 66,
+		"respiratory_rate": 13.49,
+		"spO2": 94.01,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:41:00",
+		"heart_rate": 71,
+		"hrv": 85,
+		"respiratory_rate": 17.37,
+		"spO2": 95.12,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:42:00",
+		"heart_rate": 61,
+		"hrv": 42,
+		"respiratory_rate": 18.26,
+		"spO2": 95.26,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:43:00",
+		"heart_rate": 73,
+		"hrv": 59,
+		"respiratory_rate": 12.41,
+		"spO2": 95.21,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:44:00",
+		"heart_rate": 58,
+		"hrv": 75,
+		"respiratory_rate": 19.45,
+		"spO2": 94.73,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:45:00",
+		"heart_rate": 66,
+		"hrv": 73,
+		"respiratory_rate": 16.68,
+		"spO2": 98.97,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:46:00",
+		"heart_rate": 65,
+		"hrv": 39,
+		"respiratory_rate": 19.08,
+		"spO2": 94.07,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:47:00",
+		"heart_rate": 70,
+		"hrv": 45,
+		"respiratory_rate": 12.79,
+		"spO2": 98.98,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:48:00",
+		"heart_rate": 71,
+		"hrv": 99,
+		"respiratory_rate": 16.33,
+		"spO2": 94.48,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:49:00",
+		"heart_rate": 57,
+		"hrv": 84,
+		"respiratory_rate": 17.83,
+		"spO2": 98.52,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:50:00",
+		"heart_rate": 52,
+		"hrv": 44,
+		"respiratory_rate": 13.88,
+		"spO2": 97.72,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:51:00",
+		"heart_rate": 50,
+		"hrv": 82,
+		"respiratory_rate": 19.86,
+		"spO2": 96.83,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:52:00",
+		"heart_rate": 79,
+		"hrv": 72,
+		"respiratory_rate": 18.01,
+		"spO2": 95.71,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:53:00",
+		"heart_rate": 52,
+		"hrv": 62,
+		"respiratory_rate": 19.68,
+		"spO2": 97.78,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:54:00",
+		"heart_rate": 55,
+		"hrv": 71,
+		"respiratory_rate": 15.95,
+		"spO2": 98.11,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T00:55:00",
+		"heart_rate": 69,
+		"hrv": 35,
+		"respiratory_rate": 14.72,
+		"spO2": 98.9,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:56:00",
+		"heart_rate": 56,
+		"hrv": 95,
+		"respiratory_rate": 18.52,
+		"spO2": 98.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:57:00",
+		"heart_rate": 50,
+		"hrv": 40,
+		"respiratory_rate": 19.36,
+		"spO2": 98.79,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:58:00",
+		"heart_rate": 50,
+		"hrv": 69,
+		"respiratory_rate": 17.92,
+		"spO2": 95.12,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T00:59:00",
+		"heart_rate": 60,
+		"hrv": 46,
+		"respiratory_rate": 16.58,
+		"spO2": 98.24,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:00:00",
+		"heart_rate": 77,
+		"hrv": 50,
+		"respiratory_rate": 15.01,
+		"spO2": 95.7,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:01:00",
+		"heart_rate": 58,
+		"hrv": 51,
+		"respiratory_rate": 12.0,
+		"spO2": 98.56,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:02:00",
+		"heart_rate": 66,
+		"hrv": 37,
+		"respiratory_rate": 14.43,
+		"spO2": 97.52,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:03:00",
+		"heart_rate": 50,
+		"hrv": 82,
+		"respiratory_rate": 14.47,
+		"spO2": 99.36,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:04:00",
+		"heart_rate": 59,
+		"hrv": 30,
+		"respiratory_rate": 12.52,
+		"spO2": 97.66,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:05:00",
+		"heart_rate": 62,
+		"hrv": 74,
+		"respiratory_rate": 14.76,
+		"spO2": 99.05,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:06:00",
+		"heart_rate": 64,
+		"hrv": 30,
+		"respiratory_rate": 14.72,
+		"spO2": 95.13,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:07:00",
+		"heart_rate": 75,
+		"hrv": 83,
+		"respiratory_rate": 12.24,
+		"spO2": 94.75,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:08:00",
+		"heart_rate": 75,
+		"hrv": 85,
+		"respiratory_rate": 17.61,
+		"spO2": 95.35,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:09:00",
+		"heart_rate": 62,
+		"hrv": 73,
+		"respiratory_rate": 16.62,
+		"spO2": 99.15,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:10:00",
+		"heart_rate": 50,
+		"hrv": 74,
+		"respiratory_rate": 14.53,
+		"spO2": 95.39,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:11:00",
+		"heart_rate": 69,
+		"hrv": 41,
+		"respiratory_rate": 14.59,
+		"spO2": 94.21,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:12:00",
+		"heart_rate": 65,
+		"hrv": 49,
+		"respiratory_rate": 19.36,
+		"spO2": 96.35,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:13:00",
+		"heart_rate": 62,
+		"hrv": 75,
+		"respiratory_rate": 18.21,
+		"spO2": 98.19,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:14:00",
+		"heart_rate": 64,
+		"hrv": 45,
+		"respiratory_rate": 16.46,
+		"spO2": 98.84,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:15:00",
+		"heart_rate": 62,
+		"hrv": 47,
+		"respiratory_rate": 19.37,
+		"spO2": 94.1,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:16:00",
+		"heart_rate": 76,
+		"hrv": 99,
+		"respiratory_rate": 17.08,
+		"spO2": 97.72,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:17:00",
+		"heart_rate": 65,
+		"hrv": 84,
+		"respiratory_rate": 18.78,
+		"spO2": 94.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:18:00",
+		"heart_rate": 76,
+		"hrv": 78,
+		"respiratory_rate": 17.65,
+		"spO2": 94.42,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:19:00",
+		"heart_rate": 80,
+		"hrv": 78,
+		"respiratory_rate": 12.39,
+		"spO2": 98.82,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:20:00",
+		"heart_rate": 62,
+		"hrv": 59,
+		"respiratory_rate": 18.94,
+		"spO2": 97.85,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:21:00",
+		"heart_rate": 70,
+		"hrv": 67,
+		"respiratory_rate": 14.9,
+		"spO2": 98.04,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:22:00",
+		"heart_rate": 68,
+		"hrv": 55,
+		"respiratory_rate": 16.0,
+		"spO2": 96.86,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:23:00",
+		"heart_rate": 80,
+		"hrv": 89,
+		"respiratory_rate": 16.9,
+		"spO2": 98.96,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:24:00",
+		"heart_rate": 74,
+		"hrv": 51,
+		"respiratory_rate": 17.44,
+		"spO2": 99.28,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:25:00",
+		"heart_rate": 59,
+		"hrv": 87,
+		"respiratory_rate": 17.82,
+		"spO2": 97.69,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:26:00",
+		"heart_rate": 69,
+		"hrv": 98,
+		"respiratory_rate": 17.15,
+		"spO2": 98.02,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:27:00",
+		"heart_rate": 72,
+		"hrv": 50,
+		"respiratory_rate": 18.92,
+		"spO2": 95.13,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:28:00",
+		"heart_rate": 79,
+		"hrv": 81,
+		"respiratory_rate": 16.59,
+		"spO2": 98.33,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:29:00",
+		"heart_rate": 54,
+		"hrv": 74,
+		"respiratory_rate": 14.29,
+		"spO2": 97.69,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:30:00",
+		"heart_rate": 66,
+		"hrv": 85,
+		"respiratory_rate": 15.23,
+		"spO2": 94.91,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:31:00",
+		"heart_rate": 79,
+		"hrv": 84,
+		"respiratory_rate": 18.79,
+		"spO2": 96.84,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:32:00",
+		"heart_rate": 63,
+		"hrv": 57,
+		"respiratory_rate": 17.76,
+		"spO2": 94.8,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:33:00",
+		"heart_rate": 61,
+		"hrv": 64,
+		"respiratory_rate": 17.44,
+		"spO2": 94.59,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:34:00",
+		"heart_rate": 75,
+		"hrv": 80,
+		"respiratory_rate": 12.93,
+		"spO2": 94.6,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:35:00",
+		"heart_rate": 53,
+		"hrv": 41,
+		"respiratory_rate": 13.69,
+		"spO2": 96.65,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:36:00",
+		"heart_rate": 74,
+		"hrv": 52,
+		"respiratory_rate": 13.02,
+		"spO2": 94.46,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:37:00",
+		"heart_rate": 78,
+		"hrv": 79,
+		"respiratory_rate": 14.39,
+		"spO2": 94.52,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:38:00",
+		"heart_rate": 80,
+		"hrv": 79,
+		"respiratory_rate": 19.87,
+		"spO2": 94.31,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:39:00",
+		"heart_rate": 80,
+		"hrv": 53,
+		"respiratory_rate": 13.66,
+		"spO2": 99.41,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:40:00",
+		"heart_rate": 69,
+		"hrv": 55,
+		"respiratory_rate": 18.77,
+		"spO2": 98.1,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:41:00",
+		"heart_rate": 50,
+		"hrv": 53,
+		"respiratory_rate": 19.51,
+		"spO2": 95.92,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:42:00",
+		"heart_rate": 71,
+		"hrv": 71,
+		"respiratory_rate": 16.13,
+		"spO2": 95.45,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:43:00",
+		"heart_rate": 65,
+		"hrv": 47,
+		"respiratory_rate": 15.94,
+		"spO2": 99.14,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:44:00",
+		"heart_rate": 64,
+		"hrv": 33,
+		"respiratory_rate": 17.23,
+		"spO2": 97.38,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:45:00",
+		"heart_rate": 56,
+		"hrv": 37,
+		"respiratory_rate": 19.25,
+		"spO2": 96.4,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:46:00",
+		"heart_rate": 50,
+		"hrv": 61,
+		"respiratory_rate": 13.86,
+		"spO2": 96.33,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:47:00",
+		"heart_rate": 66,
+		"hrv": 85,
+		"respiratory_rate": 12.6,
+		"spO2": 96.37,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:48:00",
+		"heart_rate": 56,
+		"hrv": 37,
+		"respiratory_rate": 17.92,
+		"spO2": 95.22,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:49:00",
+		"heart_rate": 62,
+		"hrv": 54,
+		"respiratory_rate": 16.55,
+		"spO2": 99.29,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:50:00",
+		"heart_rate": 62,
+		"hrv": 31,
+		"respiratory_rate": 12.44,
+		"spO2": 99.49,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:51:00",
+		"heart_rate": 62,
+		"hrv": 75,
+		"respiratory_rate": 14.41,
+		"spO2": 95.56,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:52:00",
+		"heart_rate": 78,
+		"hrv": 31,
+		"respiratory_rate": 18.85,
+		"spO2": 95.0,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:53:00",
+		"heart_rate": 74,
+		"hrv": 38,
+		"respiratory_rate": 14.51,
+		"spO2": 97.8,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:54:00",
+		"heart_rate": 53,
+		"hrv": 45,
+		"respiratory_rate": 13.44,
+		"spO2": 97.33,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:55:00",
+		"heart_rate": 50,
+		"hrv": 47,
+		"respiratory_rate": 12.38,
+		"spO2": 94.79,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:56:00",
+		"heart_rate": 70,
+		"hrv": 36,
+		"respiratory_rate": 13.35,
+		"spO2": 96.14,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:57:00",
+		"heart_rate": 72,
+		"hrv": 30,
+		"respiratory_rate": 15.65,
+		"spO2": 94.58,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T01:58:00",
+		"heart_rate": 52,
+		"hrv": 64,
+		"respiratory_rate": 19.9,
+		"spO2": 97.59,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T01:59:00",
+		"heart_rate": 79,
+		"hrv": 31,
+		"respiratory_rate": 14.15,
+		"spO2": 99.37,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:00:00",
+		"heart_rate": 67,
+		"hrv": 49,
+		"respiratory_rate": 14.12,
+		"spO2": 99.06,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:01:00",
+		"heart_rate": 76,
+		"hrv": 48,
+		"respiratory_rate": 12.33,
+		"spO2": 98.7,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:02:00",
+		"heart_rate": 57,
+		"hrv": 92,
+		"respiratory_rate": 18.3,
+		"spO2": 98.27,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:03:00",
+		"heart_rate": 64,
+		"hrv": 59,
+		"respiratory_rate": 19.18,
+		"spO2": 95.89,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:04:00",
+		"heart_rate": 72,
+		"hrv": 72,
+		"respiratory_rate": 19.53,
+		"spO2": 97.65,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:05:00",
+		"heart_rate": 60,
+		"hrv": 48,
+		"respiratory_rate": 16.56,
+		"spO2": 99.31,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:06:00",
+		"heart_rate": 63,
+		"hrv": 92,
+		"respiratory_rate": 16.19,
+		"spO2": 94.78,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:07:00",
+		"heart_rate": 61,
+		"hrv": 97,
+		"respiratory_rate": 19.73,
+		"spO2": 96.93,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:08:00",
+		"heart_rate": 59,
+		"hrv": 75,
+		"respiratory_rate": 19.52,
+		"spO2": 95.63,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:09:00",
+		"heart_rate": 69,
+		"hrv": 71,
+		"respiratory_rate": 13.26,
+		"spO2": 99.32,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:10:00",
+		"heart_rate": 66,
+		"hrv": 43,
+		"respiratory_rate": 12.52,
+		"spO2": 95.53,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:11:00",
+		"heart_rate": 79,
+		"hrv": 38,
+		"respiratory_rate": 17.37,
+		"spO2": 99.02,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:12:00",
+		"heart_rate": 55,
+		"hrv": 47,
+		"respiratory_rate": 16.63,
+		"spO2": 95.69,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:13:00",
+		"heart_rate": 51,
+		"hrv": 36,
+		"respiratory_rate": 16.08,
+		"spO2": 99.29,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:14:00",
+		"heart_rate": 59,
+		"hrv": 50,
+		"respiratory_rate": 16.1,
+		"spO2": 98.51,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:15:00",
+		"heart_rate": 74,
+		"hrv": 39,
+		"respiratory_rate": 16.53,
+		"spO2": 94.03,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:16:00",
+		"heart_rate": 62,
+		"hrv": 89,
+		"respiratory_rate": 19.82,
+		"spO2": 96.66,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:17:00",
+		"heart_rate": 54,
+		"hrv": 60,
+		"respiratory_rate": 17.94,
+		"spO2": 97.52,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:18:00",
+		"heart_rate": 54,
+		"hrv": 99,
+		"respiratory_rate": 12.57,
+		"spO2": 98.62,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:19:00",
+		"heart_rate": 67,
+		"hrv": 85,
+		"respiratory_rate": 17.99,
+		"spO2": 95.88,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:20:00",
+		"heart_rate": 79,
+		"hrv": 65,
+		"respiratory_rate": 16.13,
+		"spO2": 98.49,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:21:00",
+		"heart_rate": 67,
+		"hrv": 82,
+		"respiratory_rate": 12.57,
+		"spO2": 96.72,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:22:00",
+		"heart_rate": 58,
+		"hrv": 30,
+		"respiratory_rate": 13.63,
+		"spO2": 96.55,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:23:00",
+		"heart_rate": 71,
+		"hrv": 89,
+		"respiratory_rate": 18.18,
+		"spO2": 98.22,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:24:00",
+		"heart_rate": 72,
+		"hrv": 99,
+		"respiratory_rate": 15.06,
+		"spO2": 98.91,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:25:00",
+		"heart_rate": 51,
+		"hrv": 98,
+		"respiratory_rate": 19.88,
+		"spO2": 96.88,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:26:00",
+		"heart_rate": 78,
+		"hrv": 94,
+		"respiratory_rate": 15.47,
+		"spO2": 97.59,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:27:00",
+		"heart_rate": 64,
+		"hrv": 90,
+		"respiratory_rate": 16.12,
+		"spO2": 94.8,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:28:00",
+		"heart_rate": 76,
+		"hrv": 71,
+		"respiratory_rate": 17.27,
+		"spO2": 98.24,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:29:00",
+		"heart_rate": 61,
+		"hrv": 81,
+		"respiratory_rate": 14.98,
+		"spO2": 95.03,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:30:00",
+		"heart_rate": 78,
+		"hrv": 47,
+		"respiratory_rate": 18.22,
+		"spO2": 99.22,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:31:00",
+		"heart_rate": 58,
+		"hrv": 60,
+		"respiratory_rate": 16.81,
+		"spO2": 96.81,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:32:00",
+		"heart_rate": 60,
+		"hrv": 58,
+		"respiratory_rate": 14.3,
+		"spO2": 94.94,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:33:00",
+		"heart_rate": 58,
+		"hrv": 47,
+		"respiratory_rate": 15.1,
+		"spO2": 96.89,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:34:00",
+		"heart_rate": 57,
+		"hrv": 72,
+		"respiratory_rate": 14.99,
+		"spO2": 98.01,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:35:00",
+		"heart_rate": 51,
+		"hrv": 88,
+		"respiratory_rate": 17.89,
+		"spO2": 95.37,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:36:00",
+		"heart_rate": 64,
+		"hrv": 58,
+		"respiratory_rate": 12.05,
+		"spO2": 97.36,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:37:00",
+		"heart_rate": 71,
+		"hrv": 46,
+		"respiratory_rate": 13.58,
+		"spO2": 97.07,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:38:00",
+		"heart_rate": 72,
+		"hrv": 31,
+		"respiratory_rate": 16.5,
+		"spO2": 94.09,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:39:00",
+		"heart_rate": 52,
+		"hrv": 50,
+		"respiratory_rate": 13.23,
+		"spO2": 98.38,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:40:00",
+		"heart_rate": 78,
+		"hrv": 68,
+		"respiratory_rate": 12.01,
+		"spO2": 98.49,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:41:00",
+		"heart_rate": 64,
+		"hrv": 35,
+		"respiratory_rate": 16.6,
+		"spO2": 99.42,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:42:00",
+		"heart_rate": 65,
+		"hrv": 70,
+		"respiratory_rate": 14.32,
+		"spO2": 97.14,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:43:00",
+		"heart_rate": 74,
+		"hrv": 33,
+		"respiratory_rate": 14.36,
+		"spO2": 94.91,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:44:00",
+		"heart_rate": 75,
+		"hrv": 67,
+		"respiratory_rate": 12.37,
+		"spO2": 96.57,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:45:00",
+		"heart_rate": 72,
+		"hrv": 31,
+		"respiratory_rate": 14.76,
+		"spO2": 99.32,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:46:00",
+		"heart_rate": 58,
+		"hrv": 82,
+		"respiratory_rate": 15.26,
+		"spO2": 94.84,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:47:00",
+		"heart_rate": 60,
+		"hrv": 39,
+		"respiratory_rate": 14.06,
+		"spO2": 94.15,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:48:00",
+		"heart_rate": 76,
+		"hrv": 53,
+		"respiratory_rate": 17.39,
+		"spO2": 98.12,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:49:00",
+		"heart_rate": 63,
+		"hrv": 31,
+		"respiratory_rate": 12.77,
+		"spO2": 99.46,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:50:00",
+		"heart_rate": 60,
+		"hrv": 36,
+		"respiratory_rate": 16.42,
+		"spO2": 96.12,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:51:00",
+		"heart_rate": 54,
+		"hrv": 50,
+		"respiratory_rate": 14.97,
+		"spO2": 97.68,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:52:00",
+		"heart_rate": 54,
+		"hrv": 55,
+		"respiratory_rate": 16.11,
+		"spO2": 98.82,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:53:00",
+		"heart_rate": 77,
+		"hrv": 100,
+		"respiratory_rate": 19.46,
+		"spO2": 94.12,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:54:00",
+		"heart_rate": 57,
+		"hrv": 75,
+		"respiratory_rate": 19.51,
+		"spO2": 95.49,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:55:00",
+		"heart_rate": 72,
+		"hrv": 58,
+		"respiratory_rate": 16.3,
+		"spO2": 95.26,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:56:00",
+		"heart_rate": 56,
+		"hrv": 41,
+		"respiratory_rate": 19.64,
+		"spO2": 95.78,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:57:00",
+		"heart_rate": 62,
+		"hrv": 90,
+		"respiratory_rate": 17.8,
+		"spO2": 99.21,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T02:58:00",
+		"heart_rate": 79,
+		"hrv": 95,
+		"respiratory_rate": 13.83,
+		"spO2": 94.7,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T02:59:00",
+		"heart_rate": 78,
+		"hrv": 60,
+		"respiratory_rate": 15.29,
+		"spO2": 96.02,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:00:00",
+		"heart_rate": 71,
+		"hrv": 67,
+		"respiratory_rate": 13.34,
+		"spO2": 97.23,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:01:00",
+		"heart_rate": 80,
+		"hrv": 76,
+		"respiratory_rate": 18.88,
+		"spO2": 98.22,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:02:00",
+		"heart_rate": 73,
+		"hrv": 43,
+		"respiratory_rate": 18.2,
+		"spO2": 96.98,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:03:00",
+		"heart_rate": 50,
+		"hrv": 99,
+		"respiratory_rate": 19.55,
+		"spO2": 94.04,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:04:00",
+		"heart_rate": 53,
+		"hrv": 48,
+		"respiratory_rate": 13.24,
+		"spO2": 99.04,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:05:00",
+		"heart_rate": 53,
+		"hrv": 90,
+		"respiratory_rate": 16.32,
+		"spO2": 96.17,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:06:00",
+		"heart_rate": 80,
+		"hrv": 64,
+		"respiratory_rate": 12.16,
+		"spO2": 96.31,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:07:00",
+		"heart_rate": 77,
+		"hrv": 41,
+		"respiratory_rate": 12.91,
+		"spO2": 97.8,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:08:00",
+		"heart_rate": 78,
+		"hrv": 34,
+		"respiratory_rate": 16.42,
+		"spO2": 98.21,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:09:00",
+		"heart_rate": 69,
+		"hrv": 41,
+		"respiratory_rate": 19.41,
+		"spO2": 94.88,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:10:00",
+		"heart_rate": 75,
+		"hrv": 62,
+		"respiratory_rate": 15.12,
+		"spO2": 95.15,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:11:00",
+		"heart_rate": 80,
+		"hrv": 36,
+		"respiratory_rate": 19.12,
+		"spO2": 98.31,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:12:00",
+		"heart_rate": 80,
+		"hrv": 38,
+		"respiratory_rate": 16.28,
+		"spO2": 96.61,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:13:00",
+		"heart_rate": 79,
+		"hrv": 38,
+		"respiratory_rate": 16.85,
+		"spO2": 97.64,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:14:00",
+		"heart_rate": 75,
+		"hrv": 99,
+		"respiratory_rate": 19.71,
+		"spO2": 95.67,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:15:00",
+		"heart_rate": 66,
+		"hrv": 50,
+		"respiratory_rate": 14.05,
+		"spO2": 99.38,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:16:00",
+		"heart_rate": 80,
+		"hrv": 61,
+		"respiratory_rate": 16.04,
+		"spO2": 97.65,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:17:00",
+		"heart_rate": 66,
+		"hrv": 36,
+		"respiratory_rate": 12.73,
+		"spO2": 97.99,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:18:00",
+		"heart_rate": 57,
+		"hrv": 81,
+		"respiratory_rate": 12.44,
+		"spO2": 98.33,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:19:00",
+		"heart_rate": 62,
+		"hrv": 79,
+		"respiratory_rate": 15.52,
+		"spO2": 98.01,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:20:00",
+		"heart_rate": 77,
+		"hrv": 36,
+		"respiratory_rate": 19.95,
+		"spO2": 97.92,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:21:00",
+		"heart_rate": 63,
+		"hrv": 79,
+		"respiratory_rate": 14.92,
+		"spO2": 96.26,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:22:00",
+		"heart_rate": 51,
+		"hrv": 55,
+		"respiratory_rate": 13.13,
+		"spO2": 95.41,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:23:00",
+		"heart_rate": 55,
+		"hrv": 69,
+		"respiratory_rate": 18.45,
+		"spO2": 98.71,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:24:00",
+		"heart_rate": 66,
+		"hrv": 87,
+		"respiratory_rate": 15.72,
+		"spO2": 94.14,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:25:00",
+		"heart_rate": 71,
+		"hrv": 86,
+		"respiratory_rate": 17.63,
+		"spO2": 96.65,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:26:00",
+		"heart_rate": 73,
+		"hrv": 81,
+		"respiratory_rate": 16.43,
+		"spO2": 95.07,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:27:00",
+		"heart_rate": 54,
+		"hrv": 69,
+		"respiratory_rate": 15.08,
+		"spO2": 96.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:28:00",
+		"heart_rate": 70,
+		"hrv": 71,
+		"respiratory_rate": 17.64,
+		"spO2": 94.2,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:29:00",
+		"heart_rate": 54,
+		"hrv": 54,
+		"respiratory_rate": 17.43,
+		"spO2": 97.27,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:30:00",
+		"heart_rate": 60,
+		"hrv": 37,
+		"respiratory_rate": 12.87,
+		"spO2": 96.4,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:31:00",
+		"heart_rate": 66,
+		"hrv": 33,
+		"respiratory_rate": 15.74,
+		"spO2": 94.23,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:32:00",
+		"heart_rate": 71,
+		"hrv": 91,
+		"respiratory_rate": 13.25,
+		"spO2": 94.16,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:33:00",
+		"heart_rate": 67,
+		"hrv": 43,
+		"respiratory_rate": 17.77,
+		"spO2": 95.76,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:34:00",
+		"heart_rate": 65,
+		"hrv": 60,
+		"respiratory_rate": 14.85,
+		"spO2": 97.21,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:35:00",
+		"heart_rate": 77,
+		"hrv": 85,
+		"respiratory_rate": 17.28,
+		"spO2": 96.96,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:36:00",
+		"heart_rate": 55,
+		"hrv": 62,
+		"respiratory_rate": 16.71,
+		"spO2": 96.08,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:37:00",
+		"heart_rate": 72,
+		"hrv": 75,
+		"respiratory_rate": 17.17,
+		"spO2": 97.72,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:38:00",
+		"heart_rate": 72,
+		"hrv": 93,
+		"respiratory_rate": 17.19,
+		"spO2": 97.3,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:39:00",
+		"heart_rate": 74,
+		"hrv": 50,
+		"respiratory_rate": 19.78,
+		"spO2": 99.13,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:40:00",
+		"heart_rate": 58,
+		"hrv": 79,
+		"respiratory_rate": 19.31,
+		"spO2": 96.03,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:41:00",
+		"heart_rate": 51,
+		"hrv": 32,
+		"respiratory_rate": 18.37,
+		"spO2": 95.48,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:42:00",
+		"heart_rate": 50,
+		"hrv": 62,
+		"respiratory_rate": 17.37,
+		"spO2": 96.31,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:43:00",
+		"heart_rate": 60,
+		"hrv": 56,
+		"respiratory_rate": 19.99,
+		"spO2": 99.29,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:44:00",
+		"heart_rate": 59,
+		"hrv": 31,
+		"respiratory_rate": 17.41,
+		"spO2": 98.45,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:45:00",
+		"heart_rate": 64,
+		"hrv": 35,
+		"respiratory_rate": 16.24,
+		"spO2": 99.14,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:46:00",
+		"heart_rate": 73,
+		"hrv": 93,
+		"respiratory_rate": 18.58,
+		"spO2": 98.36,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:47:00",
+		"heart_rate": 79,
+		"hrv": 97,
+		"respiratory_rate": 15.79,
+		"spO2": 97.48,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:48:00",
+		"heart_rate": 76,
+		"hrv": 67,
+		"respiratory_rate": 18.54,
+		"spO2": 96.77,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:49:00",
+		"heart_rate": 59,
+		"hrv": 30,
+		"respiratory_rate": 17.8,
+		"spO2": 98.83,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:50:00",
+		"heart_rate": 80,
+		"hrv": 62,
+		"respiratory_rate": 16.36,
+		"spO2": 96.01,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:51:00",
+		"heart_rate": 62,
+		"hrv": 60,
+		"respiratory_rate": 19.1,
+		"spO2": 95.85,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:52:00",
+		"heart_rate": 68,
+		"hrv": 54,
+		"respiratory_rate": 15.08,
+		"spO2": 99.39,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:53:00",
+		"heart_rate": 61,
+		"hrv": 48,
+		"respiratory_rate": 12.13,
+		"spO2": 94.7,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:54:00",
+		"heart_rate": 62,
+		"hrv": 63,
+		"respiratory_rate": 18.16,
+		"spO2": 95.09,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:55:00",
+		"heart_rate": 51,
+		"hrv": 98,
+		"respiratory_rate": 12.92,
+		"spO2": 97.32,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:56:00",
+		"heart_rate": 71,
+		"hrv": 69,
+		"respiratory_rate": 15.18,
+		"spO2": 96.56,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:57:00",
+		"heart_rate": 53,
+		"hrv": 93,
+		"respiratory_rate": 19.66,
+		"spO2": 95.24,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T03:58:00",
+		"heart_rate": 77,
+		"hrv": 61,
+		"respiratory_rate": 18.74,
+		"spO2": 98.51,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T03:59:00",
+		"heart_rate": 55,
+		"hrv": 93,
+		"respiratory_rate": 19.04,
+		"spO2": 96.3,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:00:00",
+		"heart_rate": 74,
+		"hrv": 79,
+		"respiratory_rate": 14.52,
+		"spO2": 96.63,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:01:00",
+		"heart_rate": 52,
+		"hrv": 54,
+		"respiratory_rate": 14.66,
+		"spO2": 97.32,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:02:00",
+		"heart_rate": 79,
+		"hrv": 55,
+		"respiratory_rate": 18.34,
+		"spO2": 97.58,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:03:00",
+		"heart_rate": 53,
+		"hrv": 83,
+		"respiratory_rate": 17.42,
+		"spO2": 95.73,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:04:00",
+		"heart_rate": 80,
+		"hrv": 58,
+		"respiratory_rate": 17.88,
+		"spO2": 97.42,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:05:00",
+		"heart_rate": 67,
+		"hrv": 51,
+		"respiratory_rate": 16.92,
+		"spO2": 97.36,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:06:00",
+		"heart_rate": 75,
+		"hrv": 95,
+		"respiratory_rate": 15.38,
+		"spO2": 95.18,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:07:00",
+		"heart_rate": 70,
+		"hrv": 30,
+		"respiratory_rate": 19.91,
+		"spO2": 98.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:08:00",
+		"heart_rate": 65,
+		"hrv": 41,
+		"respiratory_rate": 12.49,
+		"spO2": 97.0,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:09:00",
+		"heart_rate": 74,
+		"hrv": 64,
+		"respiratory_rate": 12.46,
+		"spO2": 97.29,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:10:00",
+		"heart_rate": 65,
+		"hrv": 98,
+		"respiratory_rate": 13.95,
+		"spO2": 98.43,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:11:00",
+		"heart_rate": 76,
+		"hrv": 97,
+		"respiratory_rate": 19.51,
+		"spO2": 99.19,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:12:00",
+		"heart_rate": 76,
+		"hrv": 97,
+		"respiratory_rate": 19.78,
+		"spO2": 94.57,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:13:00",
+		"heart_rate": 76,
+		"hrv": 66,
+		"respiratory_rate": 19.95,
+		"spO2": 97.45,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:14:00",
+		"heart_rate": 65,
+		"hrv": 34,
+		"respiratory_rate": 19.85,
+		"spO2": 96.61,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:15:00",
+		"heart_rate": 64,
+		"hrv": 93,
+		"respiratory_rate": 13.46,
+		"spO2": 96.35,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:16:00",
+		"heart_rate": 51,
+		"hrv": 91,
+		"respiratory_rate": 19.71,
+		"spO2": 96.27,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:17:00",
+		"heart_rate": 54,
+		"hrv": 95,
+		"respiratory_rate": 12.21,
+		"spO2": 94.11,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:18:00",
+		"heart_rate": 59,
+		"hrv": 88,
+		"respiratory_rate": 18.84,
+		"spO2": 98.3,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:19:00",
+		"heart_rate": 70,
+		"hrv": 36,
+		"respiratory_rate": 13.4,
+		"spO2": 94.29,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:20:00",
+		"heart_rate": 50,
+		"hrv": 75,
+		"respiratory_rate": 14.47,
+		"spO2": 96.05,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:21:00",
+		"heart_rate": 64,
+		"hrv": 82,
+		"respiratory_rate": 13.37,
+		"spO2": 98.43,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:22:00",
+		"heart_rate": 74,
+		"hrv": 91,
+		"respiratory_rate": 15.66,
+		"spO2": 98.76,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:23:00",
+		"heart_rate": 61,
+		"hrv": 75,
+		"respiratory_rate": 14.3,
+		"spO2": 98.67,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:24:00",
+		"heart_rate": 70,
+		"hrv": 97,
+		"respiratory_rate": 18.07,
+		"spO2": 99.03,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:25:00",
+		"heart_rate": 70,
+		"hrv": 90,
+		"respiratory_rate": 18.0,
+		"spO2": 94.54,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:26:00",
+		"heart_rate": 61,
+		"hrv": 61,
+		"respiratory_rate": 12.56,
+		"spO2": 97.96,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:27:00",
+		"heart_rate": 77,
+		"hrv": 47,
+		"respiratory_rate": 13.68,
+		"spO2": 94.33,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:28:00",
+		"heart_rate": 57,
+		"hrv": 61,
+		"respiratory_rate": 12.56,
+		"spO2": 94.99,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:29:00",
+		"heart_rate": 73,
+		"hrv": 45,
+		"respiratory_rate": 16.77,
+		"spO2": 96.21,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:30:00",
+		"heart_rate": 69,
+		"hrv": 46,
+		"respiratory_rate": 17.63,
+		"spO2": 99.2,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:31:00",
+		"heart_rate": 57,
+		"hrv": 49,
+		"respiratory_rate": 14.26,
+		"spO2": 95.09,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:32:00",
+		"heart_rate": 50,
+		"hrv": 40,
+		"respiratory_rate": 16.61,
+		"spO2": 94.36,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:33:00",
+		"heart_rate": 78,
+		"hrv": 36,
+		"respiratory_rate": 16.18,
+		"spO2": 95.37,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:34:00",
+		"heart_rate": 77,
+		"hrv": 55,
+		"respiratory_rate": 14.48,
+		"spO2": 96.33,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:35:00",
+		"heart_rate": 53,
+		"hrv": 82,
+		"respiratory_rate": 17.91,
+		"spO2": 97.22,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:36:00",
+		"heart_rate": 75,
+		"hrv": 59,
+		"respiratory_rate": 12.85,
+		"spO2": 95.63,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:37:00",
+		"heart_rate": 52,
+		"hrv": 64,
+		"respiratory_rate": 14.44,
+		"spO2": 98.78,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:38:00",
+		"heart_rate": 64,
+		"hrv": 78,
+		"respiratory_rate": 12.91,
+		"spO2": 98.66,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:39:00",
+		"heart_rate": 76,
+		"hrv": 48,
+		"respiratory_rate": 14.71,
+		"spO2": 98.42,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:40:00",
+		"heart_rate": 52,
+		"hrv": 41,
+		"respiratory_rate": 15.42,
+		"spO2": 95.44,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:41:00",
+		"heart_rate": 63,
+		"hrv": 40,
+		"respiratory_rate": 13.05,
+		"spO2": 97.63,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:42:00",
+		"heart_rate": 64,
+		"hrv": 76,
+		"respiratory_rate": 16.26,
+		"spO2": 97.15,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:43:00",
+		"heart_rate": 54,
+		"hrv": 97,
+		"respiratory_rate": 12.91,
+		"spO2": 95.7,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:44:00",
+		"heart_rate": 76,
+		"hrv": 40,
+		"respiratory_rate": 16.53,
+		"spO2": 98.53,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:45:00",
+		"heart_rate": 75,
+		"hrv": 71,
+		"respiratory_rate": 13.0,
+		"spO2": 98.65,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:46:00",
+		"heart_rate": 77,
+		"hrv": 54,
+		"respiratory_rate": 13.47,
+		"spO2": 97.09,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:47:00",
+		"heart_rate": 66,
+		"hrv": 57,
+		"respiratory_rate": 14.82,
+		"spO2": 94.23,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:48:00",
+		"heart_rate": 79,
+		"hrv": 93,
+		"respiratory_rate": 16.13,
+		"spO2": 97.46,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:49:00",
+		"heart_rate": 60,
+		"hrv": 89,
+		"respiratory_rate": 17.35,
+		"spO2": 95.3,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:50:00",
+		"heart_rate": 60,
+		"hrv": 47,
+		"respiratory_rate": 16.41,
+		"spO2": 98.12,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:51:00",
+		"heart_rate": 74,
+		"hrv": 86,
+		"respiratory_rate": 15.16,
+		"spO2": 94.39,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:52:00",
+		"heart_rate": 62,
+		"hrv": 37,
+		"respiratory_rate": 13.82,
+		"spO2": 96.67,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:53:00",
+		"heart_rate": 62,
+		"hrv": 71,
+		"respiratory_rate": 14.48,
+		"spO2": 95.39,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:54:00",
+		"heart_rate": 68,
+		"hrv": 80,
+		"respiratory_rate": 17.72,
+		"spO2": 95.83,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:55:00",
+		"heart_rate": 63,
+		"hrv": 54,
+		"respiratory_rate": 15.28,
+		"spO2": 95.56,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:56:00",
+		"heart_rate": 74,
+		"hrv": 52,
+		"respiratory_rate": 15.52,
+		"spO2": 97.28,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:57:00",
+		"heart_rate": 55,
+		"hrv": 43,
+		"respiratory_rate": 19.43,
+		"spO2": 95.52,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T04:58:00",
+		"heart_rate": 76,
+		"hrv": 65,
+		"respiratory_rate": 19.82,
+		"spO2": 94.83,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T04:59:00",
+		"heart_rate": 65,
+		"hrv": 49,
+		"respiratory_rate": 13.01,
+		"spO2": 99.44,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:00:00",
+		"heart_rate": 63,
+		"hrv": 33,
+		"respiratory_rate": 12.46,
+		"spO2": 95.29,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:01:00",
+		"heart_rate": 63,
+		"hrv": 48,
+		"respiratory_rate": 13.01,
+		"spO2": 96.94,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:02:00",
+		"heart_rate": 70,
+		"hrv": 98,
+		"respiratory_rate": 14.33,
+		"spO2": 96.98,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:03:00",
+		"heart_rate": 60,
+		"hrv": 66,
+		"respiratory_rate": 14.35,
+		"spO2": 99.13,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:04:00",
+		"heart_rate": 62,
+		"hrv": 53,
+		"respiratory_rate": 12.72,
+		"spO2": 98.86,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:05:00",
+		"heart_rate": 55,
+		"hrv": 48,
+		"respiratory_rate": 18.83,
+		"spO2": 94.02,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:06:00",
+		"heart_rate": 77,
+		"hrv": 66,
+		"respiratory_rate": 16.43,
+		"spO2": 96.41,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:07:00",
+		"heart_rate": 57,
+		"hrv": 59,
+		"respiratory_rate": 17.86,
+		"spO2": 97.84,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:08:00",
+		"heart_rate": 79,
+		"hrv": 55,
+		"respiratory_rate": 17.8,
+		"spO2": 99.16,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:09:00",
+		"heart_rate": 60,
+		"hrv": 100,
+		"respiratory_rate": 13.02,
+		"spO2": 98.46,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:10:00",
+		"heart_rate": 55,
+		"hrv": 69,
+		"respiratory_rate": 14.51,
+		"spO2": 97.12,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:11:00",
+		"heart_rate": 69,
+		"hrv": 49,
+		"respiratory_rate": 13.52,
+		"spO2": 96.64,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:12:00",
+		"heart_rate": 74,
+		"hrv": 40,
+		"respiratory_rate": 17.29,
+		"spO2": 94.97,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:13:00",
+		"heart_rate": 76,
+		"hrv": 75,
+		"respiratory_rate": 17.43,
+		"spO2": 94.91,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:14:00",
+		"heart_rate": 64,
+		"hrv": 46,
+		"respiratory_rate": 19.76,
+		"spO2": 98.86,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:15:00",
+		"heart_rate": 66,
+		"hrv": 45,
+		"respiratory_rate": 16.18,
+		"spO2": 96.57,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:16:00",
+		"heart_rate": 60,
+		"hrv": 59,
+		"respiratory_rate": 14.22,
+		"spO2": 99.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:17:00",
+		"heart_rate": 66,
+		"hrv": 83,
+		"respiratory_rate": 18.27,
+		"spO2": 95.28,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:18:00",
+		"heart_rate": 77,
+		"hrv": 62,
+		"respiratory_rate": 15.3,
+		"spO2": 97.67,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:19:00",
+		"heart_rate": 75,
+		"hrv": 54,
+		"respiratory_rate": 14.11,
+		"spO2": 96.58,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:20:00",
+		"heart_rate": 54,
+		"hrv": 63,
+		"respiratory_rate": 17.41,
+		"spO2": 98.17,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:21:00",
+		"heart_rate": 65,
+		"hrv": 93,
+		"respiratory_rate": 13.64,
+		"spO2": 98.97,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:22:00",
+		"heart_rate": 68,
+		"hrv": 91,
+		"respiratory_rate": 17.05,
+		"spO2": 95.52,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:23:00",
+		"heart_rate": 56,
+		"hrv": 93,
+		"respiratory_rate": 15.94,
+		"spO2": 94.32,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:24:00",
+		"heart_rate": 80,
+		"hrv": 75,
+		"respiratory_rate": 16.64,
+		"spO2": 97.66,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:25:00",
+		"heart_rate": 71,
+		"hrv": 42,
+		"respiratory_rate": 17.82,
+		"spO2": 98.88,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:26:00",
+		"heart_rate": 50,
+		"hrv": 68,
+		"respiratory_rate": 13.01,
+		"spO2": 95.0,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:27:00",
+		"heart_rate": 58,
+		"hrv": 37,
+		"respiratory_rate": 19.79,
+		"spO2": 98.0,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:28:00",
+		"heart_rate": 74,
+		"hrv": 69,
+		"respiratory_rate": 13.32,
+		"spO2": 94.89,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:29:00",
+		"heart_rate": 70,
+		"hrv": 82,
+		"respiratory_rate": 18.69,
+		"spO2": 98.13,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:30:00",
+		"heart_rate": 58,
+		"hrv": 64,
+		"respiratory_rate": 18.84,
+		"spO2": 98.68,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:31:00",
+		"heart_rate": 77,
+		"hrv": 32,
+		"respiratory_rate": 15.64,
+		"spO2": 96.23,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:32:00",
+		"heart_rate": 66,
+		"hrv": 73,
+		"respiratory_rate": 15.54,
+		"spO2": 94.78,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:33:00",
+		"heart_rate": 77,
+		"hrv": 62,
+		"respiratory_rate": 12.59,
+		"spO2": 96.83,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:34:00",
+		"heart_rate": 66,
+		"hrv": 73,
+		"respiratory_rate": 18.81,
+		"spO2": 98.63,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:35:00",
+		"heart_rate": 72,
+		"hrv": 99,
+		"respiratory_rate": 15.83,
+		"spO2": 95.37,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:36:00",
+		"heart_rate": 65,
+		"hrv": 90,
+		"respiratory_rate": 15.78,
+		"spO2": 96.71,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:37:00",
+		"heart_rate": 79,
+		"hrv": 90,
+		"respiratory_rate": 13.04,
+		"spO2": 97.55,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:38:00",
+		"heart_rate": 65,
+		"hrv": 64,
+		"respiratory_rate": 14.05,
+		"spO2": 96.95,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:39:00",
+		"heart_rate": 75,
+		"hrv": 35,
+		"respiratory_rate": 14.85,
+		"spO2": 98.24,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:40:00",
+		"heart_rate": 66,
+		"hrv": 84,
+		"respiratory_rate": 12.04,
+		"spO2": 96.11,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:41:00",
+		"heart_rate": 68,
+		"hrv": 31,
+		"respiratory_rate": 17.49,
+		"spO2": 96.21,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:42:00",
+		"heart_rate": 75,
+		"hrv": 83,
+		"respiratory_rate": 18.94,
+		"spO2": 97.37,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:43:00",
+		"heart_rate": 65,
+		"hrv": 88,
+		"respiratory_rate": 19.79,
+		"spO2": 94.89,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:44:00",
+		"heart_rate": 55,
+		"hrv": 84,
+		"respiratory_rate": 15.06,
+		"spO2": 97.02,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:45:00",
+		"heart_rate": 60,
+		"hrv": 37,
+		"respiratory_rate": 13.33,
+		"spO2": 95.77,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:46:00",
+		"heart_rate": 79,
+		"hrv": 82,
+		"respiratory_rate": 15.73,
+		"spO2": 96.05,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:47:00",
+		"heart_rate": 59,
+		"hrv": 48,
+		"respiratory_rate": 14.16,
+		"spO2": 95.07,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:48:00",
+		"heart_rate": 72,
+		"hrv": 37,
+		"respiratory_rate": 16.8,
+		"spO2": 97.75,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:49:00",
+		"heart_rate": 74,
+		"hrv": 34,
+		"respiratory_rate": 14.51,
+		"spO2": 96.33,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:50:00",
+		"heart_rate": 60,
+		"hrv": 87,
+		"respiratory_rate": 18.4,
+		"spO2": 96.52,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:51:00",
+		"heart_rate": 51,
+		"hrv": 100,
+		"respiratory_rate": 18.88,
+		"spO2": 96.62,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:52:00",
+		"heart_rate": 53,
+		"hrv": 58,
+		"respiratory_rate": 15.52,
+		"spO2": 96.64,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:53:00",
+		"heart_rate": 79,
+		"hrv": 42,
+		"respiratory_rate": 18.9,
+		"spO2": 96.97,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:54:00",
+		"heart_rate": 60,
+		"hrv": 94,
+		"respiratory_rate": 12.32,
+		"spO2": 95.61,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:55:00",
+		"heart_rate": 55,
+		"hrv": 97,
+		"respiratory_rate": 19.02,
+		"spO2": 94.63,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:56:00",
+		"heart_rate": 67,
+		"hrv": 36,
+		"respiratory_rate": 18.57,
+		"spO2": 99.23,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:57:00",
+		"heart_rate": 55,
+		"hrv": 72,
+		"respiratory_rate": 15.38,
+		"spO2": 98.93,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T05:58:00",
+		"heart_rate": 51,
+		"hrv": 37,
+		"respiratory_rate": 17.61,
+		"spO2": 95.7,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T05:59:00",
+		"heart_rate": 64,
+		"hrv": 95,
+		"respiratory_rate": 17.49,
+		"spO2": 94.5,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:00:00",
+		"heart_rate": 54,
+		"hrv": 69,
+		"respiratory_rate": 19.76,
+		"spO2": 97.54,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:01:00",
+		"heart_rate": 80,
+		"hrv": 61,
+		"respiratory_rate": 14.57,
+		"spO2": 94.45,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:02:00",
+		"heart_rate": 64,
+		"hrv": 77,
+		"respiratory_rate": 19.39,
+		"spO2": 94.39,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:03:00",
+		"heart_rate": 79,
+		"hrv": 32,
+		"respiratory_rate": 17.54,
+		"spO2": 97.04,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:04:00",
+		"heart_rate": 56,
+		"hrv": 46,
+		"respiratory_rate": 15.22,
+		"spO2": 96.82,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:05:00",
+		"heart_rate": 54,
+		"hrv": 98,
+		"respiratory_rate": 12.5,
+		"spO2": 98.15,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:06:00",
+		"heart_rate": 73,
+		"hrv": 61,
+		"respiratory_rate": 17.51,
+		"spO2": 95.05,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:07:00",
+		"heart_rate": 70,
+		"hrv": 89,
+		"respiratory_rate": 18.97,
+		"spO2": 99.31,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:08:00",
+		"heart_rate": 52,
+		"hrv": 80,
+		"respiratory_rate": 19.46,
+		"spO2": 97.86,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:09:00",
+		"heart_rate": 68,
+		"hrv": 31,
+		"respiratory_rate": 15.69,
+		"spO2": 98.73,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:10:00",
+		"heart_rate": 62,
+		"hrv": 81,
+		"respiratory_rate": 17.68,
+		"spO2": 98.07,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:11:00",
+		"heart_rate": 74,
+		"hrv": 38,
+		"respiratory_rate": 14.56,
+		"spO2": 96.25,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:12:00",
+		"heart_rate": 59,
+		"hrv": 72,
+		"respiratory_rate": 19.46,
+		"spO2": 98.17,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:13:00",
+		"heart_rate": 69,
+		"hrv": 39,
+		"respiratory_rate": 16.52,
+		"spO2": 95.49,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:14:00",
+		"heart_rate": 60,
+		"hrv": 56,
+		"respiratory_rate": 19.14,
+		"spO2": 94.43,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:15:00",
+		"heart_rate": 58,
+		"hrv": 40,
+		"respiratory_rate": 19.33,
+		"spO2": 98.03,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:16:00",
+		"heart_rate": 58,
+		"hrv": 56,
+		"respiratory_rate": 14.61,
+		"spO2": 98.71,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:17:00",
+		"heart_rate": 70,
+		"hrv": 58,
+		"respiratory_rate": 14.89,
+		"spO2": 94.62,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:18:00",
+		"heart_rate": 68,
+		"hrv": 66,
+		"respiratory_rate": 15.95,
+		"spO2": 99.37,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:19:00",
+		"heart_rate": 58,
+		"hrv": 66,
+		"respiratory_rate": 14.97,
+		"spO2": 95.12,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:20:00",
+		"heart_rate": 80,
+		"hrv": 31,
+		"respiratory_rate": 14.61,
+		"spO2": 97.96,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:21:00",
+		"heart_rate": 75,
+		"hrv": 40,
+		"respiratory_rate": 19.48,
+		"spO2": 96.21,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:22:00",
+		"heart_rate": 70,
+		"hrv": 77,
+		"respiratory_rate": 14.87,
+		"spO2": 95.78,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:23:00",
+		"heart_rate": 72,
+		"hrv": 65,
+		"respiratory_rate": 16.2,
+		"spO2": 96.89,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:24:00",
+		"heart_rate": 59,
+		"hrv": 43,
+		"respiratory_rate": 17.83,
+		"spO2": 97.7,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:25:00",
+		"heart_rate": 77,
+		"hrv": 56,
+		"respiratory_rate": 16.04,
+		"spO2": 98.85,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:26:00",
+		"heart_rate": 71,
+		"hrv": 73,
+		"respiratory_rate": 17.61,
+		"spO2": 98.34,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:27:00",
+		"heart_rate": 53,
+		"hrv": 76,
+		"respiratory_rate": 16.24,
+		"spO2": 96.67,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:28:00",
+		"heart_rate": 75,
+		"hrv": 87,
+		"respiratory_rate": 19.3,
+		"spO2": 95.51,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:29:00",
+		"heart_rate": 60,
+		"hrv": 96,
+		"respiratory_rate": 14.31,
+		"spO2": 99.0,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:30:00",
+		"heart_rate": 76,
+		"hrv": 96,
+		"respiratory_rate": 17.52,
+		"spO2": 96.03,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:31:00",
+		"heart_rate": 55,
+		"hrv": 79,
+		"respiratory_rate": 18.29,
+		"spO2": 98.1,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:32:00",
+		"heart_rate": 59,
+		"hrv": 83,
+		"respiratory_rate": 14.63,
+		"spO2": 95.18,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:33:00",
+		"heart_rate": 50,
+		"hrv": 46,
+		"respiratory_rate": 12.24,
+		"spO2": 95.24,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:34:00",
+		"heart_rate": 70,
+		"hrv": 63,
+		"respiratory_rate": 16.08,
+		"spO2": 99.24,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:35:00",
+		"heart_rate": 64,
+		"hrv": 32,
+		"respiratory_rate": 18.38,
+		"spO2": 96.62,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:36:00",
+		"heart_rate": 63,
+		"hrv": 66,
+		"respiratory_rate": 13.86,
+		"spO2": 97.33,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:37:00",
+		"heart_rate": 62,
+		"hrv": 96,
+		"respiratory_rate": 16.46,
+		"spO2": 96.29,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:38:00",
+		"heart_rate": 59,
+		"hrv": 76,
+		"respiratory_rate": 16.61,
+		"spO2": 98.25,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:39:00",
+		"heart_rate": 71,
+		"hrv": 40,
+		"respiratory_rate": 17.66,
+		"spO2": 96.4,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:40:00",
+		"heart_rate": 63,
+		"hrv": 95,
+		"respiratory_rate": 13.91,
+		"spO2": 99.28,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:41:00",
+		"heart_rate": 62,
+		"hrv": 74,
+		"respiratory_rate": 19.54,
+		"spO2": 96.99,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:42:00",
+		"heart_rate": 59,
+		"hrv": 82,
+		"respiratory_rate": 16.45,
+		"spO2": 94.21,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:43:00",
+		"heart_rate": 61,
+		"hrv": 76,
+		"respiratory_rate": 17.75,
+		"spO2": 94.82,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:44:00",
+		"heart_rate": 79,
+		"hrv": 31,
+		"respiratory_rate": 19.25,
+		"spO2": 95.9,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:45:00",
+		"heart_rate": 80,
+		"hrv": 92,
+		"respiratory_rate": 18.12,
+		"spO2": 94.82,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:46:00",
+		"heart_rate": 57,
+		"hrv": 58,
+		"respiratory_rate": 17.36,
+		"spO2": 96.09,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:47:00",
+		"heart_rate": 57,
+		"hrv": 92,
+		"respiratory_rate": 14.82,
+		"spO2": 95.38,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:48:00",
+		"heart_rate": 50,
+		"hrv": 61,
+		"respiratory_rate": 13.12,
+		"spO2": 98.94,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:49:00",
+		"heart_rate": 76,
+		"hrv": 46,
+		"respiratory_rate": 18.19,
+		"spO2": 94.33,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:50:00",
+		"heart_rate": 50,
+		"hrv": 52,
+		"respiratory_rate": 19.76,
+		"spO2": 94.92,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:51:00",
+		"heart_rate": 76,
+		"hrv": 98,
+		"respiratory_rate": 19.51,
+		"spO2": 97.0,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:52:00",
+		"heart_rate": 80,
+		"hrv": 42,
+		"respiratory_rate": 14.48,
+		"spO2": 98.85,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:53:00",
+		"heart_rate": 55,
+		"hrv": 62,
+		"respiratory_rate": 12.09,
+		"spO2": 96.29,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:54:00",
+		"heart_rate": 64,
+		"hrv": 79,
+		"respiratory_rate": 16.14,
+		"spO2": 96.54,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:55:00",
+		"heart_rate": 68,
+		"hrv": 86,
+		"respiratory_rate": 18.28,
+		"spO2": 96.78,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:56:00",
+		"heart_rate": 80,
+		"hrv": 75,
+		"respiratory_rate": 14.08,
+		"spO2": 97.9,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:57:00",
+		"heart_rate": 51,
+		"hrv": 38,
+		"respiratory_rate": 13.2,
+		"spO2": 96.54,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T06:58:00",
+		"heart_rate": 75,
+		"hrv": 74,
+		"respiratory_rate": 17.02,
+		"spO2": 97.95,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T06:59:00",
+		"heart_rate": 70,
+		"hrv": 88,
+		"respiratory_rate": 12.18,
+		"spO2": 97.55,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:00:00",
+		"heart_rate": 78,
+		"hrv": 63,
+		"respiratory_rate": 15.42,
+		"spO2": 97.13,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:01:00",
+		"heart_rate": 70,
+		"hrv": 35,
+		"respiratory_rate": 17.81,
+		"spO2": 97.26,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:02:00",
+		"heart_rate": 60,
+		"hrv": 52,
+		"respiratory_rate": 12.69,
+		"spO2": 95.24,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:03:00",
+		"heart_rate": 72,
+		"hrv": 74,
+		"respiratory_rate": 17.41,
+		"spO2": 96.38,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:04:00",
+		"heart_rate": 53,
+		"hrv": 89,
+		"respiratory_rate": 18.16,
+		"spO2": 97.02,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:05:00",
+		"heart_rate": 70,
+		"hrv": 91,
+		"respiratory_rate": 12.93,
+		"spO2": 95.58,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:06:00",
+		"heart_rate": 59,
+		"hrv": 34,
+		"respiratory_rate": 19.49,
+		"spO2": 95.97,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:07:00",
+		"heart_rate": 70,
+		"hrv": 94,
+		"respiratory_rate": 17.64,
+		"spO2": 97.54,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:08:00",
+		"heart_rate": 53,
+		"hrv": 68,
+		"respiratory_rate": 16.61,
+		"spO2": 99.33,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:09:00",
+		"heart_rate": 54,
+		"hrv": 32,
+		"respiratory_rate": 17.83,
+		"spO2": 99.34,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:10:00",
+		"heart_rate": 70,
+		"hrv": 95,
+		"respiratory_rate": 15.53,
+		"spO2": 99.28,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:11:00",
+		"heart_rate": 73,
+		"hrv": 95,
+		"respiratory_rate": 12.04,
+		"spO2": 98.03,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:12:00",
+		"heart_rate": 58,
+		"hrv": 56,
+		"respiratory_rate": 14.6,
+		"spO2": 98.0,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:13:00",
+		"heart_rate": 65,
+		"hrv": 84,
+		"respiratory_rate": 14.04,
+		"spO2": 96.74,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:14:00",
+		"heart_rate": 65,
+		"hrv": 65,
+		"respiratory_rate": 19.26,
+		"spO2": 94.22,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:15:00",
+		"heart_rate": 60,
+		"hrv": 55,
+		"respiratory_rate": 16.55,
+		"spO2": 95.08,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:16:00",
+		"heart_rate": 76,
+		"hrv": 38,
+		"respiratory_rate": 13.66,
+		"spO2": 94.77,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:17:00",
+		"heart_rate": 51,
+		"hrv": 95,
+		"respiratory_rate": 17.62,
+		"spO2": 96.78,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:18:00",
+		"heart_rate": 53,
+		"hrv": 45,
+		"respiratory_rate": 15.05,
+		"spO2": 95.87,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:19:00",
+		"heart_rate": 58,
+		"hrv": 38,
+		"respiratory_rate": 14.65,
+		"spO2": 96.57,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:20:00",
+		"heart_rate": 63,
+		"hrv": 38,
+		"respiratory_rate": 17.19,
+		"spO2": 95.11,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:21:00",
+		"heart_rate": 74,
+		"hrv": 42,
+		"respiratory_rate": 14.36,
+		"spO2": 98.68,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:22:00",
+		"heart_rate": 79,
+		"hrv": 66,
+		"respiratory_rate": 17.74,
+		"spO2": 94.59,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:23:00",
+		"heart_rate": 50,
+		"hrv": 60,
+		"respiratory_rate": 15.95,
+		"spO2": 98.33,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:24:00",
+		"heart_rate": 80,
+		"hrv": 71,
+		"respiratory_rate": 12.11,
+		"spO2": 95.65,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:25:00",
+		"heart_rate": 61,
+		"hrv": 93,
+		"respiratory_rate": 13.44,
+		"spO2": 96.08,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:26:00",
+		"heart_rate": 73,
+		"hrv": 90,
+		"respiratory_rate": 16.98,
+		"spO2": 97.06,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:27:00",
+		"heart_rate": 63,
+		"hrv": 92,
+		"respiratory_rate": 16.08,
+		"spO2": 99.08,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:28:00",
+		"heart_rate": 78,
+		"hrv": 42,
+		"respiratory_rate": 12.96,
+		"spO2": 96.57,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:29:00",
+		"heart_rate": 73,
+		"hrv": 33,
+		"respiratory_rate": 14.54,
+		"spO2": 94.96,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:30:00",
+		"heart_rate": 71,
+		"hrv": 91,
+		"respiratory_rate": 13.44,
+		"spO2": 95.16,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:31:00",
+		"heart_rate": 58,
+		"hrv": 52,
+		"respiratory_rate": 13.92,
+		"spO2": 97.56,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:32:00",
+		"heart_rate": 56,
+		"hrv": 57,
+		"respiratory_rate": 12.12,
+		"spO2": 95.64,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:33:00",
+		"heart_rate": 80,
+		"hrv": 79,
+		"respiratory_rate": 13.56,
+		"spO2": 95.95,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:34:00",
+		"heart_rate": 52,
+		"hrv": 80,
+		"respiratory_rate": 16.45,
+		"spO2": 94.86,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:35:00",
+		"heart_rate": 58,
+		"hrv": 35,
+		"respiratory_rate": 15.21,
+		"spO2": 97.5,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:36:00",
+		"heart_rate": 59,
+		"hrv": 68,
+		"respiratory_rate": 16.77,
+		"spO2": 94.98,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:37:00",
+		"heart_rate": 54,
+		"hrv": 58,
+		"respiratory_rate": 18.18,
+		"spO2": 95.25,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:38:00",
+		"heart_rate": 69,
+		"hrv": 31,
+		"respiratory_rate": 13.68,
+		"spO2": 97.96,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:39:00",
+		"heart_rate": 50,
+		"hrv": 89,
+		"respiratory_rate": 13.45,
+		"spO2": 98.98,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:40:00",
+		"heart_rate": 61,
+		"hrv": 97,
+		"respiratory_rate": 18.23,
+		"spO2": 97.73,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:41:00",
+		"heart_rate": 78,
+		"hrv": 75,
+		"respiratory_rate": 15.44,
+		"spO2": 94.4,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:42:00",
+		"heart_rate": 80,
+		"hrv": 66,
+		"respiratory_rate": 13.97,
+		"spO2": 96.12,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:43:00",
+		"heart_rate": 65,
+		"hrv": 72,
+		"respiratory_rate": 18.11,
+		"spO2": 97.15,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:44:00",
+		"heart_rate": 50,
+		"hrv": 32,
+		"respiratory_rate": 12.27,
+		"spO2": 94.78,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:45:00",
+		"heart_rate": 63,
+		"hrv": 32,
+		"respiratory_rate": 18.98,
+		"spO2": 97.99,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:46:00",
+		"heart_rate": 56,
+		"hrv": 53,
+		"respiratory_rate": 16.62,
+		"spO2": 98.43,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:47:00",
+		"heart_rate": 60,
+		"hrv": 63,
+		"respiratory_rate": 16.7,
+		"spO2": 97.47,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:48:00",
+		"heart_rate": 64,
+		"hrv": 83,
+		"respiratory_rate": 13.97,
+		"spO2": 97.04,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:49:00",
+		"heart_rate": 77,
+		"hrv": 62,
+		"respiratory_rate": 17.01,
+		"spO2": 97.48,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:50:00",
+		"heart_rate": 57,
+		"hrv": 93,
+		"respiratory_rate": 18.49,
+		"spO2": 95.57,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:51:00",
+		"heart_rate": 78,
+		"hrv": 87,
+		"respiratory_rate": 17.05,
+		"spO2": 95.03,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:52:00",
+		"heart_rate": 62,
+		"hrv": 32,
+		"respiratory_rate": 12.66,
+		"spO2": 95.21,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:53:00",
+		"heart_rate": 73,
+		"hrv": 69,
+		"respiratory_rate": 18.62,
+		"spO2": 98.37,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:54:00",
+		"heart_rate": 73,
+		"hrv": 55,
+		"respiratory_rate": 16.01,
+		"spO2": 96.13,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:55:00",
+		"heart_rate": 54,
+		"hrv": 82,
+		"respiratory_rate": 14.58,
+		"spO2": 95.43,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T07:56:00",
+		"heart_rate": 76,
+		"hrv": 70,
+		"respiratory_rate": 19.1,
+		"spO2": 94.58,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:57:00",
+		"heart_rate": 60,
+		"hrv": 77,
+		"respiratory_rate": 13.58,
+		"spO2": 94.37,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:58:00",
+		"heart_rate": 63,
+		"hrv": 68,
+		"respiratory_rate": 12.2,
+		"spO2": 95.34,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T07:59:00",
+		"heart_rate": 80,
+		"hrv": 78,
+		"respiratory_rate": 16.48,
+		"spO2": 98.05,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:00:00",
+		"heart_rate": 65,
+		"hrv": 67,
+		"respiratory_rate": 15.32,
+		"spO2": 98.35,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:01:00",
+		"heart_rate": 80,
+		"hrv": 43,
+		"respiratory_rate": 18.51,
+		"spO2": 96.42,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:02:00",
+		"heart_rate": 68,
+		"hrv": 64,
+		"respiratory_rate": 12.96,
+		"spO2": 95.6,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:03:00",
+		"heart_rate": 54,
+		"hrv": 91,
+		"respiratory_rate": 17.48,
+		"spO2": 95.31,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:04:00",
+		"heart_rate": 55,
+		"hrv": 39,
+		"respiratory_rate": 12.86,
+		"spO2": 94.75,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:05:00",
+		"heart_rate": 59,
+		"hrv": 49,
+		"respiratory_rate": 13.68,
+		"spO2": 99.22,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:06:00",
+		"heart_rate": 54,
+		"hrv": 62,
+		"respiratory_rate": 15.93,
+		"spO2": 95.42,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:07:00",
+		"heart_rate": 80,
+		"hrv": 82,
+		"respiratory_rate": 19.44,
+		"spO2": 96.08,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:08:00",
+		"heart_rate": 54,
+		"hrv": 40,
+		"respiratory_rate": 15.64,
+		"spO2": 95.73,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:09:00",
+		"heart_rate": 63,
+		"hrv": 83,
+		"respiratory_rate": 15.27,
+		"spO2": 94.36,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:10:00",
+		"heart_rate": 71,
+		"hrv": 61,
+		"respiratory_rate": 15.08,
+		"spO2": 94.97,
+		"movement": 0,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:11:00",
+		"heart_rate": 53,
+		"hrv": 75,
+		"respiratory_rate": 16.39,
+		"spO2": 98.2,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:12:00",
+		"heart_rate": 75,
+		"hrv": 93,
+		"respiratory_rate": 18.53,
+		"spO2": 94.12,
+		"movement": 1,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:13:00",
+		"heart_rate": 67,
+		"hrv": 37,
+		"respiratory_rate": 13.9,
+		"spO2": 99.12,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:14:00",
+		"heart_rate": 73,
+		"hrv": 50,
+		"respiratory_rate": 16.14,
+		"spO2": 95.91,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:15:00",
+		"heart_rate": 66,
+		"hrv": 85,
+		"respiratory_rate": 17.41,
+		"spO2": 95.33,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:16:00",
+		"heart_rate": 59,
+		"hrv": 31,
+		"respiratory_rate": 18.87,
+		"spO2": 94.89,
+		"movement": 1,
+		"sleep_stage": "Deep Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:17:00",
+		"heart_rate": 66,
+		"hrv": 45,
+		"respiratory_rate": 18.12,
+		"spO2": 97.99,
+		"movement": 1,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:18:00",
+		"heart_rate": 71,
+		"hrv": 36,
+		"respiratory_rate": 13.16,
+		"spO2": 99.4,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:19:00",
+		"heart_rate": 75,
+		"hrv": 63,
+		"respiratory_rate": 18.63,
+		"spO2": 95.59,
+		"movement": 0,
+		"sleep_stage": "REM",
+		"good_sleep": true
+	},
+	{
+		"timestamp": "2024-10-05T08:20:00",
+		"heart_rate": 50,
+		"hrv": 78,
+		"respiratory_rate": 15.82,
+		"spO2": 96.14,
+		"movement": 1,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:21:00",
+		"heart_rate": 50,
+		"hrv": 63,
+		"respiratory_rate": 16.17,
+		"spO2": 96.02,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:22:00",
+		"heart_rate": 71,
+		"hrv": 55,
+		"respiratory_rate": 18.34,
+		"spO2": 95.16,
+		"movement": 0,
+		"sleep_stage": "Awake",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:23:00",
+		"heart_rate": 75,
+		"hrv": 42,
+		"respiratory_rate": 18.48,
+		"spO2": 96.41,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	},
+	{
+		"timestamp": "2024-10-05T08:24:00",
+		"heart_rate": 80,
+		"hrv": 47,
+		"respiratory_rate": 17.13,
+		"spO2": 97.55,
+		"movement": 0,
+		"sleep_stage": "Light Sleep",
+		"good_sleep": false
+	}
+]
