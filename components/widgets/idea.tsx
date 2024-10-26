@@ -23,7 +23,14 @@ export default function IdeaBoxWidget() {
 				<View style={{ top: 1 }}>
 					<Ionicons name="bulb-outline" size={120} color="white" />
 				</View>
-				<Text style={{ color: "white", fontSize: 20, alignSelf: "center" }}>
+				<Text
+					style={{
+						color: "white",
+						fontSize: 20,
+						alignSelf: "center",
+						fontWeight: "500",
+					}}
+				>
 					Idea Box
 				</Text>
 			</TouchableOpacity>

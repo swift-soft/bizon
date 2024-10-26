@@ -60,7 +60,7 @@ export default function TimerWidget() {
 		<View style={styles.timerContainer}>
 			<AnimatedCircularProgress
 				size={120}
-				width={12}
+				width={14}
 				fill={
 					resetted ? 100 : Math.min((currentSeconds / maxSeconds) * 100, 100)
 				}
@@ -117,7 +117,7 @@ export default function TimerWidget() {
 			<View style={styles.buttons}>
 				<Button
 					size="icon"
-					className="rounded-full"
+					className="bg-gray-700 rounded-full"
 					onPress={() => setCounting((p) => !p)}
 				>
 					<Ionicons
@@ -136,7 +136,7 @@ export default function TimerWidget() {
 						setCurrentSeconds(maxSeconds);
 					}}
 				>
-					<Ionicons name="stop" size={16} color="black" />
+					<Ionicons name="stop" size={16} color="#444" />
 				</Button>
 			</View>
 		</View>

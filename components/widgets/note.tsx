@@ -30,7 +30,14 @@ export default function NoteWidget() {
 			{/* Icon button to open the modal */}
 			<TouchableOpacity onPress={handleOpenModal}>
 				<Ionicons name="document-outline" size={120} color="white" />
-				<Text style={{ color: "white", fontSize: 20, alignSelf: "center" }}>
+				<Text
+					style={{
+						color: "white",
+						fontSize: 20,
+						alignSelf: "center",
+						fontWeight: "500",
+					}}
+				>
 					Quick Tip
 				</Text>
 			</TouchableOpacity>
