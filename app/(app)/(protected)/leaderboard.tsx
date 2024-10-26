@@ -9,42 +9,43 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { AnimatedCircularProgress } from "react-native-circular-progress";
+import { colors } from "@/constants/colors";
 
 // Sample user data array with additional users
 const users = [
 	{
 		name: "Bartosz Nowacki",
-		points: 80,
+		points: 90,
 		image: require("../../../assets/img/bart.jpg"),
 	},
 	{
 		name: "Tymek Piwko",
-		points: 70,
+		points: 87,
 		image: require("../../../assets/img/tym.jpg"),
 	},
 	{
 		name: "Stano Marcin",
-		points: 65,
+		points: 78,
 		image: require("../../../assets/img/stan.jpg"),
 	},
 	{
 		name: "Krzysztof Muszka",
-		points: 60,
+		points: 75,
 		image: require("../../../assets/img/cris.jpg"),
 	},
 	{
 		name: "Marcin Grzelowski",
-		points: 55,
+		points: 66,
 		image: require("../../../assets/img/mar.jpg"),
 	},
 	{
 		name: "Jakub Cyga",
-		points: 50,
+		points: 59,
 		image: require("../../../assets/img/cyg.jpg"),
 	},
 	{
 		name: "Wojciech Makowiński",
-		points: 40,
+		points: 54,
 		image: require("../../../assets/img/woj.jpg"),
 	},
 	{
@@ -68,7 +69,6 @@ export default function Leaderboard() {
 
 	// Calculate the percentage of the goal reached
 	const progress = Math.min((TOTAL_POINTS / GOAL_AMOUNT) * 100, 100); // Calculate percentage, limit to 100
-	const percentageText = Math.round(progress); // Convert percentage to integer
 
 	return (
 		<SafeAreaView style={styles.mainContainer}>
@@ -87,9 +87,11 @@ export default function Leaderboard() {
 					tintColor="gold"
 					onAnimationComplete={() => console.log("onAnimationComplete")}
 					backgroundColor="#f8dbff"
+					rotation={0}
+					lineCap="round"
 				>
 					{(fill) => (
-						<Text style={styles.fillText}>{percentageText}%</Text> // Display percentage inside the circle
+						<Text style={styles.fillText}>{Math.round(fill)}%</Text> // Display percentage inside the circle
 					)}
 				</AnimatedCircularProgress>
 				<Text style={styles.progressText}>
@@ -158,7 +160,7 @@ const styles = StyleSheet.create({
 	mainContainer: {
 		flex: 1,
 		alignItems: "center",
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 	},
 
 	title: {
@@ -168,7 +170,7 @@ const styles = StyleSheet.create({
 
 	titleText: {
 		fontSize: 28,
-		color: "#f8dbff",
+		color: colors.lightBg,
 	},
 
 	charityContainer: {
@@ -178,25 +180,29 @@ const styles = StyleSheet.create({
 
 	charityText: {
 		fontSize: 18,
-		color: "#f8dbff",
+		color: colors.lightBg,
 	},
 
 	charityGoal: {
 		fontSize: 22,
 		fontWeight: "bold",
-		color: "#f8dbff",
+		color: colors.lightBg,
 		marginBottom: 10,
 	},
 
 	fillText: {
-		fontSize: 16,
+		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb", // Color for the text inside the circle
+<<<<<<< HEAD
+		color: colors.mainBg, // Color for the text inside the circle
+=======
+		color: "#f8dbff", // Color for the text inside the circle
+>>>>>>> 20e85586d122f4f1c62aaf93de1f1e6934b62edb
 	},
 
 	progressText: {
 		fontSize: 16,
-		color: "#f8dbff",
+		color: colors.lightBg,
 		marginTop: 5,
 	},
 
@@ -227,7 +233,7 @@ const styles = StyleSheet.create({
 	podiumUserText: {
 		fontSize: 16,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 		textAlign: "center",
 		margin: 4,
 		marginBottom: 8,
@@ -236,13 +242,13 @@ const styles = StyleSheet.create({
 	podiumPointsText: {
 		fontSize: 15,
 
-		color: "#f8dbff",
+		color: colors.lightBg,
 		textAlign: "center",
 		padding: 4,
 	},
 
 	podiumPointsContainer: {
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 		width: "100%",
 		borderRadius: 14,
 	},
@@ -250,7 +256,7 @@ const styles = StyleSheet.create({
 	leaderboard: {
 		flexGrow: 1,
 		minWidth: "90%",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 26,
 		margin: 10,
 		alignItems: "center",
@@ -261,7 +267,7 @@ const styles = StyleSheet.create({
 		height: 70,
 		borderRadius: 20,
 		marginVertical: 10,
-		backgroundColor: "#ffffff",
+		backgroundColor: colors.whiteBg,
 		alignItems: "center",
 		flexDirection: "row",
 		paddingHorizontal: 10,
@@ -270,7 +276,7 @@ const styles = StyleSheet.create({
 	rankText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 		width: 30,
 		textAlign: "center",
 	},
@@ -279,7 +285,7 @@ const styles = StyleSheet.create({
 		width: 45,
 		height: 45,
 		borderRadius: 22.5,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		alignItems: "center",
 		justifyContent: "center",
 		marginRight: 10,
@@ -292,7 +298,7 @@ const styles = StyleSheet.create({
 		overflow: "hidden",
 		alignItems: "center",
 		justifyContent: "center",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 	},
 
 	image: {
@@ -309,7 +315,7 @@ const styles = StyleSheet.create({
 	userText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 	},
 
 	pointsText: {

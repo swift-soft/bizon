@@ -41,4 +41,10 @@ export const colors = {
 		input: "hsl(240, 3.7%, 15.9%)",
 		ring: "hsl(240, 4.9%, 83.9%)",
 	},
+
+	mainBg: "#b08afb",
+	lightBg: "#f8dbff",
+	whiteBg: "#ffffff",
+	bronze: "#cd7f32" ,
+
 };
