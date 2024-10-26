@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
 import { colors } from "@/constants/colors";
@@ -18,7 +18,6 @@ type CalculateBmpThresholdProps = {
 	mood: Mood;
 };
 
-// Define the interface for your heart rate data
 interface HeartRateData {
 	date: string;
 	time: string;
@@ -66,11 +65,10 @@ function Heartbeat() {
 	const [heartRateData, setHeartRateData] = useState<HeartRateData[]>([]);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [showModal, setShowModal] = useState(false);
-	const [showBreatheModal, setShowBreatheModal] = useState(false); // State for showing Breathe modal
-	const itemsPerPage = 1;
+	const [showBreatheModal, setShowBreatheModal] = useState(false);
+	const [bpmDisplay, setBpmDisplay] = useState<number | null>(null);
 
 	useEffect(() => {
-		// Load data from JSON file
 		const loadData = async () => {
 			const data = require("../../data/stress_dataset_adjusted.json");
 			setHeartRateData(data);
@@ -82,44 +80,52 @@ function Heartbeat() {
 	useEffect(() => {
 		const currentData: HeartRateData | undefined = heartRateData[currentIndex];
 
-		if (
-			currentData &&
-			currentData.heart_rate >
-				calculateBmpThreshold({
-					bpm: currentData.heart_rate,
-					sleep_hours: currentData.sleep_hours,
-					mood: mockData.todays_mood,
-				})
-		) {
-			setShowModal(true);
-		} else {
-			setShowModal(false);
+		// Initialize bpmDisplay and heartbeat variation
+		if (currentData) {
+			setBpmDisplay(currentData.heart_rate);
+
+			const intervalId = setInterval(() => {
+				// Use a random number to create a 70% chance of incrementing
+				const randomChance = Math.random();
+				const randomFluctuation = randomChance < 0.7 ? 1 : -1;
+
+				setBpmDisplay((p) => {
+					const val =
+						p !== null ? p + randomFluctuation : currentData.heart_rate;
+
+					if (val > 100) {
+						setShowModal(true);
+						clearInterval(intervalId);
+					}
+					return val;
+				});
+			}, 1000);
+
+			return () => clearInterval(intervalId);
 		}
 	}, [currentIndex, heartRateData]);
 
-	const currentData = heartRateData.slice(
-		currentIndex,
-		currentIndex + itemsPerPage,
-	)[0];
-
 	const handleBreathePress = () => {
-		setShowModal(false); // Close the heart rate modal
-		setShowBreatheModal(true); // Show the Breathe modal
+		setShowModal(false);
+		setShowBreatheModal(true);
 	};
 
 	const handleCloseBreathe = () => {
-		setShowBreatheModal(false); // Close the Breathe modal
+		setShowBreatheModal(false);
+		setBpmDisplay(85);
 	};
+
+	const currentData = heartRateData[currentIndex];
 
 	return (
 		<View style={styles.heartContainer}>
 			<View style={styles.heartIconContainer}>
-				<Ionicons name="heart-outline" size={160} color="white" />
+				<Ionicons name="heart-outline" size={150} color="white" />
 			</View>
 
-			{currentData ? (
+			{bpmDisplay !== null ? (
 				<View style={styles.heartRateText}>
-					<Text style={styles.heartRateNumber}>{currentData.heart_rate}</Text>
+					<Text style={styles.heartRateNumber}>{bpmDisplay}</Text>
 					<Text style={styles.heartRateBpm}>bpm</Text>
 				</View>
 			) : (
@@ -135,7 +141,7 @@ function Heartbeat() {
 				<View style={styles.modalOverlay}>
 					<View style={styles.modalContainer}>
 						<View style={styles.heartContainer}>
-							<Ionicons name="heart-outline" size={160} color="white" />
+							<Ionicons name="heart-outline" size={150} color="white" />
 						</View>
 						<Text style={styles.modalText}>TAKE A BREATH!</Text>
 						<Button
@@ -195,7 +201,8 @@ const styles = StyleSheet.create({
 	},
 	heartRateBpm: {
 		color: "white",
-		fontSize: 20,
+		marginTop: 10,
+		fontSize: 16,
 		top: -18,
 	},
 	stressedText: {
