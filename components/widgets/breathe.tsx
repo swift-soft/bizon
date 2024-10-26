@@ -48,7 +48,7 @@ const Breathe = ({ onClose }) => {
 					// This can handle what happens when the timer completes if needed
 					return { shouldRepeat: true }; // Repeat the timer for the next phase
 				}}
-				colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
+				colors={["#0076c5", "#F7B801", "#A30000", "#A30000"]}
 				colorsTime={[duration, duration - 2, duration - 1, 0]}
 				size={120}
 			>
@@ -59,7 +59,7 @@ const Breathe = ({ onClose }) => {
 			<TouchableOpacity
 				style={{ height: 100, width: 150, borderRadius: 75, marginTop: 30 }}
 			>
-				<Button color={colors.mainBg} title="Close" onPress={onClose} />
+				<Button color={"rgb(227, 124, 255)"} title="Close" onPress={onClose} />
 			</TouchableOpacity>
 		</View>
 	);
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 	timerText: {
 		fontSize: 30,
 		fontWeight: "bold",
-		color: colors.mainBg,
+		color: "rgb(227, 124, 255)",
 	},
 	image: {
 		width: 150,
