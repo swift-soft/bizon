@@ -14,37 +14,37 @@ import { AnimatedCircularProgress } from "react-native-circular-progress";
 const users = [
 	{
 		name: "Bartosz Nowacki",
-		points: 80,
+		points: 90,
 		image: require("../../../assets/img/bart.jpg"),
 	},
 	{
 		name: "Tymek Piwko",
-		points: 70,
+		points: 87,
 		image: require("../../../assets/img/tym.jpg"),
 	},
 	{
 		name: "Stano Marcin",
-		points: 65,
+		points: 78,
 		image: require("../../../assets/img/stan.jpg"),
 	},
 	{
 		name: "Krzysztof Muszka",
-		points: 60,
+		points: 75,
 		image: require("../../../assets/img/cris.jpg"),
 	},
 	{
 		name: "Marcin Grzelowski",
-		points: 55,
+		points: 66,
 		image: require("../../../assets/img/mar.jpg"),
 	},
 	{
 		name: "Jakub Cyga",
-		points: 50,
+		points: 59,
 		image: require("../../../assets/img/cyg.jpg"),
 	},
 	{
 		name: "Wojciech Makowiński",
-		points: 40,
+		points: 54,
 		image: require("../../../assets/img/woj.jpg"),
 	},
 	{
@@ -68,7 +68,6 @@ export default function Leaderboard() {
 
 	// Calculate the percentage of the goal reached
 	const progress = Math.min((TOTAL_POINTS / GOAL_AMOUNT) * 100, 100); // Calculate percentage, limit to 100
-	const percentageText = Math.round(progress); // Convert percentage to integer
 
 	return (
 		<SafeAreaView style={styles.mainContainer}>
@@ -87,9 +86,11 @@ export default function Leaderboard() {
 					tintColor="gold"
 					onAnimationComplete={() => console.log("onAnimationComplete")}
 					backgroundColor="#f8dbff"
+					rotation={0}
+					lineCap="round"
 				>
 					{(fill) => (
-						<Text style={styles.fillText}>{percentageText}%</Text> // Display percentage inside the circle
+						<Text style={styles.fillText}>{Math.round(fill)}%</Text> // Display percentage inside the circle
 					)}
 				</AnimatedCircularProgress>
 				<Text style={styles.progressText}>
@@ -189,9 +190,9 @@ const styles = StyleSheet.create({
 	},
 
 	fillText: {
-		fontSize: 16,
+		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb", // Color for the text inside the circle
+		color: "#f8dbff", // Color for the text inside the circle
 	},
 
 	progressText: {
