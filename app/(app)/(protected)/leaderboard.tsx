@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { AnimatedCircularProgress } from "react-native-circular-progress";
+import { colors } from "@/constants/colors";
 
 // Sample user data array with additional users
 const users = [
@@ -86,7 +87,7 @@ export default function Leaderboard() {
 					fill={progress} // Use calculated progress
 					tintColor="gold"
 					onAnimationComplete={() => console.log("onAnimationComplete")}
-					backgroundColor="#f8dbff"
+					backgroundColor={colors.lightBg}
 				>
 					{(fill) => (
 						<Text style={styles.fillText}>{percentageText}%</Text> // Display percentage inside the circle
@@ -158,7 +159,7 @@ const styles = StyleSheet.create({
 	mainContainer: {
 		flex: 1,
 		alignItems: "center",
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 	},
 
 	title: {
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
 
 	titleText: {
 		fontSize: 28,
-		color: "#f8dbff",
+		color: colors.lightBg,
 	},
 
 	charityContainer: {
@@ -178,25 +179,25 @@ const styles = StyleSheet.create({
 
 	charityText: {
 		fontSize: 18,
-		color: "#f8dbff",
+		color: colors.lightBg,
 	},
 
 	charityGoal: {
 		fontSize: 22,
 		fontWeight: "bold",
-		color: "#f8dbff",
+		color: colors.lightBg,
 		marginBottom: 10,
 	},
 
 	fillText: {
 		fontSize: 16,
 		fontWeight: "bold",
-		color: "#b08afb", // Color for the text inside the circle
+		color: colors.mainBg, // Color for the text inside the circle
 	},
 
 	progressText: {
 		fontSize: 16,
-		color: "#f8dbff",
+		color: colors.lightBg,
 		marginTop: 5,
 	},
 
@@ -227,7 +228,7 @@ const styles = StyleSheet.create({
 	podiumUserText: {
 		fontSize: 16,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 		textAlign: "center",
 		margin: 4,
 		marginBottom: 8,
@@ -236,13 +237,13 @@ const styles = StyleSheet.create({
 	podiumPointsText: {
 		fontSize: 15,
 
-		color: "#f8dbff",
+		color: colors.lightBg,
 		textAlign: "center",
 		padding: 4,
 	},
 
 	podiumPointsContainer: {
-		backgroundColor: "#b08afb",
+		backgroundColor: colors.mainBg,
 		width: "100%",
 		borderRadius: 14,
 	},
@@ -250,7 +251,7 @@ const styles = StyleSheet.create({
 	leaderboard: {
 		flexGrow: 1,
 		minWidth: "90%",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		borderRadius: 26,
 		margin: 10,
 		alignItems: "center",
@@ -261,7 +262,7 @@ const styles = StyleSheet.create({
 		height: 70,
 		borderRadius: 20,
 		marginVertical: 10,
-		backgroundColor: "#ffffff",
+		backgroundColor: colors.whiteBg,
 		alignItems: "center",
 		flexDirection: "row",
 		paddingHorizontal: 10,
@@ -270,7 +271,7 @@ const styles = StyleSheet.create({
 	rankText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 		width: 30,
 		textAlign: "center",
 	},
@@ -279,7 +280,7 @@ const styles = StyleSheet.create({
 		width: 45,
 		height: 45,
 		borderRadius: 22.5,
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 		alignItems: "center",
 		justifyContent: "center",
 		marginRight: 10,
@@ -292,7 +293,7 @@ const styles = StyleSheet.create({
 		overflow: "hidden",
 		alignItems: "center",
 		justifyContent: "center",
-		backgroundColor: "#f8dbff",
+		backgroundColor: colors.lightBg,
 	},
 
 	image: {
@@ -309,7 +310,7 @@ const styles = StyleSheet.create({
 	userText: {
 		fontSize: 18,
 		fontWeight: "bold",
-		color: "#b08afb",
+		color: colors.mainBg,
 	},
 
 	pointsText: {

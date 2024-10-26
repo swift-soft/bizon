@@ -21,7 +21,7 @@ import IdeaBoxWidget from "./widgets/idea";
 import SleepWidget from "./widgets/sleep";
 import { IconLayoutDashboardFilled } from "@tabler/icons-react-native";
 import Heartbeat from "./widgets/Heartbeat";
-
+import BreakModal from "./BreakModal";
 // const { width } = Dimensions.get("window");
 const headerViewHeight = 160;
 const bottomViewHeight = 40;
@@ -50,7 +50,7 @@ const typeToWidget: Record<WidgetType, React.ReactNode> = {
 	"mood-tracker": <MoodTrackerWidget />,
 	note: <NoteWidget />,
 	timer: <TimerWidget />,
-	// breathe: <Breathe />, tutaj
+	// breathe: <Breathe />,
 	"idea-box": <IdeaBoxWidget />,
 	sleep: <SleepWidget />,
 };
@@ -124,7 +124,7 @@ const CustomGrid = () => {
 const styles = StyleSheet.create({
 	item_wrap: {
 		position: "relative",
-		// paddingRight: 10,
+		paddingRight: 10,
 		paddingTop: 10,
 	},
 	item: {
