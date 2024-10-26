@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Modal, Button } from "react-native";
 import * as Animatable from "react-native-animatable";
 import { colors } from "@/constants/colors";
-import Breathe from "./Breathe";
+import Breathe from "./breathe";
 import { Ionicons } from "@expo/vector-icons";
 
 // Define the interface for your heart rate data
@@ -144,8 +144,8 @@ const styles = StyleSheet.create({
 	},
 	heartRateBpm: {
 		color: "white",
-		fontSize: 22,
-		top: -10,
+		fontSize: 20,
+		top: -18,
 	},
 	stressedText: {
 		marginBottom: 6,

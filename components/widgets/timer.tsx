@@ -7,7 +7,7 @@ import {
 	IconPlayerPauseFilled,
 	IconPlayerPlayFilled,
 } from "@tabler/icons-react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { Entypo, Ionicons } from "@expo/vector-icons";
 import { colors } from "@/constants/colors";
 
 const DEFAULT_TIME = 60 * 10;
@@ -78,17 +78,12 @@ export default function TimerWidget() {
 							className="rounded-full"
 							onPress={() => setMaxSeconds((p) => p + 30)}
 							disabled={counting}
+							style={{
+								position: "absolute",
+								top: -30,
+							}}
 						>
-							<Text
-								style={{
-									fontSize: 30,
-									color: "white",
-									fontWeight: "600",
-									top: 2,
-								}}
-							>
-								+
-							</Text>
+							<Entypo name="plus" size={24} color="white" />
 						</Button>
 						<Text style={styles.fillText}>
 							{formatSeconds(resetted ? maxSeconds : currentSeconds)}
@@ -99,17 +94,12 @@ export default function TimerWidget() {
 							className="rounded-full"
 							onPress={() => setMaxSeconds((p) => p - 30)}
 							disabled={counting}
+							style={{
+								position: "absolute",
+								bottom: -30,
+							}}
 						>
-							<Text
-								style={{
-									fontSize: 49,
-									color: "white",
-									top: -23,
-									fontWeight: "700",
-								}}
-							>
-								-
-							</Text>
+							<Entypo name="minus" size={24} color="white" />
 						</Button>
 					</View>
 				)}
@@ -117,8 +107,11 @@ export default function TimerWidget() {
 			<View style={styles.buttons}>
 				<Button
 					size="icon"
-					className="bg-gray-700 rounded-full"
+					className="rounded-full"
 					onPress={() => setCounting((p) => !p)}
+					style={{
+						backgroundColor: "#333",
+					}}
 				>
 					<Ionicons
 						name={counting ? "pause" : "play"}
@@ -163,7 +156,8 @@ const styles = StyleSheet.create({
 
 	innerContainer: {
 		alignItems: "center",
-		justifyContent: "space-between",
+		justifyContent: "center",
+		position: "relative",
 	},
 
 	timerButton: {
@@ -173,6 +167,7 @@ const styles = StyleSheet.create({
 	fillText: {
 		textAlign: "center",
 		fontSize: 28,
+		lineHeight: 28,
 		fontWeight: "bold",
 		color: "white", // Color for the text inside the circle
 	},
