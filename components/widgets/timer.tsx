@@ -1,11 +1,28 @@
 import React from "react";
-import { Image } from "react-native";
+import { Image, StyleSheet, View } from "react-native";
 
 export default function TimerWidget() {
 	return (
-		<Image
-			className="w-[158px] h-[158px]"
-			source={require("../../assets/timer.png")}
-		/>
+		<View style={styles.timerContainer}>
+			<Image style={styles.image} source={require("../../assets/timer.png")} />
+		</View>
 	);
 }
+
+const styles = StyleSheet.create({
+	timerContainer: {
+		height: 158,
+		width: 158,
+		alignItems: "center",
+		justifyContent: "center",
+		marginBottom: 10,
+		backgroundColor: "#f8dbff",
+		borderRadius: 10,
+		overflow: "hidden",
+	},
+
+	image: {
+		width: 130,
+		height: 130,
+	},
+});

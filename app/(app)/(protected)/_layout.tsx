@@ -1,33 +1,78 @@
 import { Tabs } from "expo-router";
 import React from "react";
-
-import { colors } from "@/constants/colors";
+import { Ionicons } from "@expo/vector-icons"; // Import the icon library
+import { colors } from "@/constants/colors"; // Ensure this contains your color definitions
 import { useColorScheme } from "@/lib/useColorScheme";
 
 export default function ProtectedLayout() {
 	const { colorScheme } = useColorScheme();
+
+	// Define custom colors
+	const activeIconColor = "#b08afb"; // Color for active (focused) icons
+	const tabBarColor = "#f8dbff"; // Color for the tab bar
 
 	return (
 		<Tabs
 			screenOptions={{
 				headerShown: false,
 				tabBarStyle: {
-					backgroundColor:
-						colorScheme === "dark"
-							? colors.dark.background
-							: colors.light.background,
+					backgroundColor: tabBarColor, // Set tab bar background color
 				},
-				tabBarActiveTintColor:
-					colorScheme === "dark"
-						? colors.dark.foreground
-						: colors.light.foreground,
 				tabBarShowLabel: false,
 			}}
 		>
-			<Tabs.Screen name="leaderboard" options={{ title: "Leaderboard" }} />
-			<Tabs.Screen name="index" options={{ title: "Home" }} />
-			<Tabs.Screen name="company" options={{ title: "Company Overview" }} />
-			<Tabs.Screen name="settings" options={{ title: "Settings" }} />
+			<Tabs.Screen
+				name="leaderboard"
+				options={{
+					title: "Leaderboard",
+					tabBarIcon: ({ focused, size }) => (
+						<Ionicons
+							name={focused ? "trophy" : "trophy-outline"}
+							size={size}
+							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
+						/>
+					),
+				}}
+			/>
+			<Tabs.Screen
+				name="index"
+				options={{
+					title: "Home",
+					tabBarIcon: ({ focused, size }) => (
+						<Ionicons
+							name={focused ? "home" : "home-outline"}
+							size={size}
+							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
+						/>
+					),
+				}}
+			/>
+			<Tabs.Screen
+				name="company"
+				options={{
+					title: "Company Overview",
+					tabBarIcon: ({ focused, size }) => (
+						<Ionicons
+							name={focused ? "business" : "business-outline"}
+							size={size}
+							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
+						/>
+					),
+				}}
+			/>
+			<Tabs.Screen
+				name="settings"
+				options={{
+					title: "Settings",
+					tabBarIcon: ({ focused, size }) => (
+						<Ionicons
+							name={focused ? "settings" : "settings-outline"}
+							size={size}
+							color={focused ? activeIconColor : colors.light.inactive} // Set active and inactive colors
+						/>
+					),
+				}}
+			/>
 		</Tabs>
 	);
 }

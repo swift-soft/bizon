@@ -16,12 +16,13 @@ import HeartRateWidget from "./widgets/heart-rate";
 import MoodTrackerWidget from "./widgets/mood-tracker";
 import NoteWidget from "./widgets/note";
 import TimerWidget from "./widgets/timer";
-import BreatheWidget from "./widgets/breathe";
+import Breathe from "./widgets/Breathe";
 import IdeaBoxWidget from "./widgets/idea";
 import SleepWidget from "./widgets/sleep";
 import { IconLayoutDashboardFilled } from "@tabler/icons-react-native";
+import Heartbeat from "./widgets/Heartbeat";
 
-const { width } = Dimensions.get("window");
+// const { width } = Dimensions.get("window");
 const headerViewHeight = 160;
 const bottomViewHeight = 40;
 
@@ -45,11 +46,11 @@ const initialItems: WidgetType[] = [
 ];
 
 const typeToWidget: Record<WidgetType, React.ReactNode> = {
-	"heart-rate": <HeartRateWidget />,
+	"heart-rate": <Heartbeat />,
 	"mood-tracker": <MoodTrackerWidget />,
 	note: <NoteWidget />,
 	timer: <TimerWidget />,
-	breathe: <BreatheWidget />,
+	// breathe: <Breathe />, tutaj
 	"idea-box": <IdeaBoxWidget />,
 	sleep: <SleepWidget />,
 };
@@ -98,6 +99,7 @@ const CustomGrid = () => {
 				variant="secondary"
 				size="sm"
 				onPress={() => setEditing((p) => !p)}
+				style={styles.customizeContainer}
 			>
 				<IconLayoutDashboardFilled color="black" size={20} />
 				<Text>Customize</Text>
@@ -113,6 +115,7 @@ const CustomGrid = () => {
 				}}
 				movedWrapStyle={styles.item_moved}
 				onDragEnd={() => setMovedKey(null)}
+				style={styles.widgetContainer}
 			/>
 		</>
 	);
@@ -121,7 +124,7 @@ const CustomGrid = () => {
 const styles = StyleSheet.create({
 	item_wrap: {
 		position: "relative",
-		paddingRight: 10,
+		// paddingRight: 10,
 		paddingTop: 10,
 	},
 	item: {
@@ -203,11 +206,7 @@ const styles = StyleSheet.create({
 		marginBottom: 10,
 		fontWeight: "bold",
 	},
-	aheader_desc: {
-		color: "#444",
-		fontSize: 16,
-		width: width - headerViewHeight * 0.6 - 32,
-	},
+
 	abottom: {
 		justifyContent: "center",
 		alignItems: "center",
@@ -221,6 +220,16 @@ const styles = StyleSheet.create({
 		color: "#333",
 		fontSize: 20,
 		fontWeight: "bold",
+	},
+
+	customizeContainer: {
+		backgroundColor: "#f8dbff",
+	},
+
+	widgetContainer: {
+		flex: 1,
+		backgroundColor: "red",
+		minWidth: 200,
 	},
 });
 
