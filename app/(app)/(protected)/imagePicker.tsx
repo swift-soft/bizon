@@ -12,15 +12,17 @@ import {
 } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import { colors } from "@/constants/colors";
-import { Ionicons } from "@expo/vector-icons";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 export default function BeRealExample() {
 	const [image, setImage] = useState<string | null>(null);
 	const [isPosted, setIsPosted] = useState<boolean>(false);
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 	const [modalVisible, setModalVisible] = useState<boolean>(false);
-	const [activityText, setActivityText] = useState<string>(""); // Initial value is empty
-	const [timeText, setTimeText] = useState<string>(""); // State for the time
+	const [activityText, setActivityText] = useState<string>("");
+	const [timeText, setTimeText] = useState<string>("");
+	const [congratsModalVisible, setCongratsModalVisible] =
+		useState<boolean>(false);
 
 	const friendsImages = [
 		{
@@ -62,13 +64,15 @@ export default function BeRealExample() {
 		if (!result.canceled) {
 			setImage(result.assets[0].uri);
 			setIsPosted(true);
-			// Get the current time when the photo is taken in 12-hour format
+
 			const currentTime = new Date().toLocaleTimeString([], {
 				hour: "numeric",
 				minute: "2-digit",
-				hour12: true, // Enable 12-hour format
+				hour12: true,
 			});
 			setTimeText(currentTime);
+
+			setCongratsModalVisible(true); // Show congratulatory modal
 		}
 	};
 
@@ -78,15 +82,9 @@ export default function BeRealExample() {
 	};
 
 	const handleFocus = () => {
-		// Clear text when the input gains focus
 		if (!isPosted) {
-			setActivityText(""); // Set to empty string
+			setActivityText("");
 		}
-	};
-
-	const handleBlur = () => {
-		// Optionally you could set editable to false to hide the cursor
-		// This is an alternative method to hide the cursor.
 	};
 
 	return (
@@ -109,10 +107,10 @@ export default function BeRealExample() {
 					/>
 				</TouchableOpacity>
 
-				{/* Button Overlay */}
+				{/* Circular Button with Camera Icon */}
 				{!isPosted && (
-					<TouchableOpacity style={styles.overlayButton} onPress={takePhoto}>
-						<Ionicons name="camera" color="white" size={34} />
+					<TouchableOpacity style={styles.cameraButton} onPress={takePhoto}>
+						<Icon name="camera-alt" size={30} color="#fff" />
 					</TouchableOpacity>
 				)}
 
@@ -123,9 +121,8 @@ export default function BeRealExample() {
 						value={activityText}
 						onChangeText={setActivityText}
 						placeholder="Type your activity"
-						editable={isPosted} // Allow editing only after posting
-						onFocus={handleFocus} // Clear text on focus
-						onBlur={handleBlur} // Optional: You can handle blur here if needed
+						editable={isPosted}
+						onFocus={handleFocus}
 					/>
 				</TouchableOpacity>
 
@@ -156,6 +153,27 @@ export default function BeRealExample() {
 					<TouchableOpacity onPress={() => setModalVisible(false)}>
 						<Image source={{ uri: selectedImage }} style={styles.fullImage} />
 					</TouchableOpacity>
+				</View>
+			</Modal>
+
+			{/* Congratulations Modal */}
+			<Modal
+				visible={congratsModalVisible}
+				transparent={true}
+				animationType="slide"
+				onRequestClose={() => setCongratsModalVisible(false)}
+			>
+				<View style={styles.congratsModalContainer}>
+					<View style={styles.congratsModalContent}>
+						<Text style={styles.congratsText}>Congratulations! 🎉</Text>
+						<Text style={styles.pointsText}>You gained 5 points!</Text>
+						<TouchableOpacity
+							style={styles.closeButton}
+							onPress={() => setCongratsModalVisible(false)}
+						>
+							<Text style={styles.closeButtonText}>Close</Text>
+						</TouchableOpacity>
+					</View>
 				</View>
 			</Modal>
 		</View>
@@ -194,16 +212,11 @@ const styles = StyleSheet.create({
 		marginTop: 20,
 	},
 	blurredImage: {
-		opacity: 0.8,
-	},
-	imageInfo: {
-		fontSize: 16,
-		color: colors.dark,
-		marginTop: 4,
+		opacity: 0.6,
 	},
 	activityInput: {
 		width: "80%",
-		marginTop: 4,
+		padding: 10,
 		marginVertical: 4,
 		fontSize: 16,
 		textAlign: "center",
@@ -214,27 +227,21 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		margin: 6,
 	},
-	overlayButton: {
+	cameraButton: {
 		position: "absolute",
-
-		backgroundColor: colors.mainBg,
-		paddingVertical: 12,
-		paddingHorizontal: 25,
-
-		borderWidth: 1,
-		borderColor: "white",
-		borderRadius: 60,
-		elevation: 2,
+		bottom: 20,
+		right: "10%",
+		width: 60,
+		height: 60,
+		backgroundColor: colors.primaryText,
+		borderRadius: 30,
+		alignItems: "center",
+		justifyContent: "center",
+		elevation: 5,
 		shadowColor: "#000",
-		shadowOffset: { width: 0, height: 1 },
-		shadowOpacity: 0.8,
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.5,
 		shadowRadius: 4,
-	},
-	buttonText: {
-		color: "#fff",
-		fontSize: 18,
-		fontWeight: "bold",
-		textAlign: "center",
 	},
 	nameText: {
 		fontSize: 22,
@@ -245,9 +252,9 @@ const styles = StyleSheet.create({
 		textDecorationColor: "#000",
 	},
 	timeText: {
-		color: "black",
+		color: colors.dark,
 		fontSize: 14,
-		margin: 6,
+		marginTop: 4,
 	},
 	imagesContainer: {
 		padding: 20,
@@ -287,5 +294,43 @@ const styles = StyleSheet.create({
 		width: "90%",
 		height: "70%",
 		borderRadius: 10,
+	},
+	// Styles for the congratulations modal
+	congratsModalContainer: {
+		flex: 1,
+		backgroundColor: "rgba(0, 0, 0, 0.5)",
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	congratsModalContent: {
+		backgroundColor: "white",
+		width: "80%",
+		height: 170,
+		padding: 20,
+		borderRadius: 10,
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	congratsText: {
+		fontSize: 22,
+		fontWeight: "bold",
+		color: colors.primaryText,
+		marginBottom: 10,
+		justifyContent: "center",
+	},
+	pointsText: {
+		fontSize: 18,
+		color: colors.dark,
+		marginBottom: 20,
+	},
+	closeButton: {
+		backgroundColor: "black",
+		paddingVertical: 10,
+		paddingHorizontal: 20,
+		borderRadius: 5,
+	},
+	closeButtonText: {
+		color: "white",
+		fontSize: 16,
 	},
 });
