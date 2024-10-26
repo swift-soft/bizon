@@ -132,7 +132,6 @@ const styles = StyleSheet.create({
 	},
 	heartIconContainer: {
 		top: 40,
-		overflow: "visible",
 	},
 	heartIcon: {
 		textAlign: "center",

@@ -10,6 +10,7 @@ import {
 	TextInput,
 	Button,
 } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function MoodTrackerWidget() {
 	const [modalVisible, setModalVisible] = useState(false);
@@ -19,10 +20,12 @@ export default function MoodTrackerWidget() {
 		<View style={styles.moodContainer}>
 			{/* Main Image Trigger */}
 			<TouchableOpacity onPress={() => setModalVisible(true)}>
-				<Image
-					style={styles.image}
-					source={require("../../assets/img/dial.png")}
-				/>
+				<View style={{ top: 1 }}>
+					<Ionicons name="happy-outline" size={120} color="white" />
+				</View>
+				<Text style={{ color: "white", fontSize: 20, alignSelf: "center" }}>
+					Mood tracker
+				</Text>
 			</TouchableOpacity>
 
 			{/* Modal for Mood Selection */}
@@ -86,13 +89,9 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "center",
 		marginBottom: 10,
-		backgroundColor: colors.lightBg,
+		backgroundColor: "#FE9B96",
 		borderRadius: 10,
 		overflow: "hidden",
-	},
-	image: {
-		width: 130,
-		height: 130,
 	},
 
 	modalBackground: {
