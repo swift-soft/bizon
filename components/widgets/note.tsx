@@ -1,11 +1,17 @@
 import { colors } from "@/constants/colors";
 import React from "react";
-import { Image, StyleSheet, View } from "react-native";
+import { Image, StyleSheet, View, Text } from "react-native";
+
+const tipsData = require("../../assets/tips.json");
 
 export default function NoteWidget() {
+
+	const randomTip = tipsData.pro_tips[Math.floor(Math.random() * tipsData.pro_tips.length)].tip;
+
 	return (
 		<View style={styles.noteContainer}>
-			<Image style={styles.image} source={require("../../assets/note.webp")} />
+			<Image style={styles.image} source={require("../../assets/note-2.webp")} />
+			<Text style={styles.noteText}>{randomTip}</Text>
 		</View>
 	);
 }
@@ -23,7 +29,25 @@ const styles = StyleSheet.create({
 	},
 
 	image: {
-		width: 130,
-		height: 130,
+		width: 152,
+		height: 152,
+		transform: [
+			{ rotate: "-12deg" },
+			{ translateY: 6 },
+		],
+	},
+
+	noteText: {
+		color: "#000",
+		position: "absolute",
+		textAlign: "center",
+		paddingHorizontal: 10,
+		top: "53%",
+		left: "38%",
+		transform: [{ translateX: -50 }, { translateY: -50 }],
+		width: 135,
+		height: 100,
+		overflow: "hidden"
+
 	},
 });
