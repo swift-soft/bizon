@@ -14,7 +14,7 @@ import Heartbeat from "./widgets/Heartbeat";
 import StepsWidget from "./widgets/steps";
 
 const headerViewHeight = 100;
-const bottomViewHeight = 40;
+const bottomViewHeight = 50;
 
 type WidgetType =
 	| "heart-rate"
@@ -49,11 +49,11 @@ const CustomGrid = () => {
 	const [items, setItems] = useState(initialItems);
 	const [editing, setEditing] = useState(false);
 	const [movedKey, setMovedKey] = useState<string | null>(null);
-	const [points, setPoints] = useState(123); // Example points data
+	const [points, setPoints] = useState(75); // Example points data
 	const sortableViewRef = useRef<AnySizeDragSortableView>(null);
 
 	const onDeleteItem = useCallback((index: number) => {
-		setItems((p) => [...p].splice(index, 1));
+		setItems((p) => p.filter((p, i) => i !== index));
 	}, []);
 
 	const renderItem = useCallback(
@@ -87,29 +87,41 @@ const CustomGrid = () => {
 		<View style={styles.aheader}>
 			{/* User Greeting and Profile Image */}
 			<View style={styles.userInfoContainer}>
-				<Text style={styles.nameText}>Hi Jimmy</Text>
+				<Text style={styles.nameText}>
+					<Text style={{ fontWeight: "bold" }}>How are you</Text>, Krzysztof?
+				</Text>
 				<Image
 					source={require("../assets/img/cris.jpg")} // replace with actual image URI
 					style={styles.userImage}
 				/>
 			</View>
 
-			{/* Points and Customize Button in One Container */}
-			<View style={styles.pointsAndCustomizeContainer}>
-				<View style={styles.pointsContainer}>
-					<Text style={styles.pointsText}>Points: {points}</Text>
-				</View>
-				<Button
-					className="w-[142px] rounded-full flex items-center flex-row gap-1"
-					variant="secondary"
-					size="sm"
-					onPress={() => setEditing((p) => !p)}
-					style={styles.customizeButton}
+			<View style={styles.pointsContainer}>
+				<Text
+					style={{
+						fontWeight: "bold",
+						fontSize: 22,
+						color: "#4f126e",
+					}}
 				>
-					<IconLayoutDashboardFilled color="black" size={20} />
-					<Text>{editing ? "Save" : "Customize"}</Text>
-				</Button>
+					{points}
+				</Text>
+				<Text> points</Text>
 			</View>
+		</View>
+	);
+
+	const renderBottomView = (
+		<View style={styles.footer}>
+			<Button
+				className="rounded-full flex items-center flex-row gap-1"
+				variant="secondary"
+				onPress={() => setEditing((p) => !p)}
+				style={styles.customizeButton}
+			>
+				<IconLayoutDashboardFilled color="black" size={20} />
+				<Text>{editing ? "Save" : "Customize"}</Text>
+			</Button>
 		</View>
 	);
 
@@ -118,7 +130,10 @@ const CustomGrid = () => {
 			ref={sortableViewRef}
 			dataSource={items}
 			keyExtractor={(item) => item}
+			headerViewHeight={headerViewHeight}
+			bottomViewHeight={bottomViewHeight}
 			renderHeaderView={renderHeaderView}
+			renderBottomView={renderBottomView}
 			renderItem={renderItem}
 			onDataChange={(data, callback) => {
 				setItems(data);
@@ -190,8 +205,9 @@ const styles = StyleSheet.create({
 		flexDirection: "column",
 		justifyContent: "space-between",
 		alignItems: "flex-start",
-		padding: 10,
 		zIndex: 100,
+		paddingRight: 10,
+		paddingTop: 10,
 	},
 	userInfoContainer: {
 		flexDirection: "row",
@@ -199,12 +215,11 @@ const styles = StyleSheet.create({
 		justifyContent: "space-between", // Aligns text on left, image on right
 		width: "100%", // Takes full header width
 		paddingHorizontal: 10, // Adds padding around
-		marginBottom: 10,
+		marginBottom: 4,
 	},
 	nameText: {
-		fontSize: 24,
+		fontSize: 20,
 		color: colors.text,
-		fontWeight: "bold",
 		marginRight: 8,
 	},
 	userImage: {
@@ -219,12 +234,12 @@ const styles = StyleSheet.create({
 		marginTop: 5,
 	},
 	pointsContainer: {
-		backgroundColor: colors.lightBg,
-		width: 142,
-		paddingVertical: 5,
+		width: "100%",
 		paddingHorizontal: 10,
-		borderRadius: 15,
-		marginRight: 20,
+		flexDirection: "row",
+		alignItems: "baseline",
+		justifyContent: "center",
+		marginBottom: 16,
 	},
 	customizeButton: {
 		backgroundColor: colors.lightBg,
@@ -232,7 +247,7 @@ const styles = StyleSheet.create({
 	abottom: {
 		justifyContent: "center",
 		alignItems: "center",
-		height: bottomViewHeight,
+
 		backgroundColor: colors.whiteBg,
 		zIndex: 100,
 		borderTopColor: "#2ecc71",
@@ -242,6 +257,10 @@ const styles = StyleSheet.create({
 		color: "#333",
 		fontSize: 20,
 		fontWeight: "bold",
+	},
+
+	footer: {
+		height: bottomViewHeight,
 	},
 });
 

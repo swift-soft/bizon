@@ -33,21 +33,35 @@ export default function Widget({
 		>
 			<View
 				className={cn(
-					"pt-2 pr-2 relative",
+					"pr-2 relative",
 					id === movedId && !isMoved ? "opacity-0" : "opacity-1",
 				)}
 			>
 				{editing && (
-					<View className="absolute right-1 top-1 w-4 h-4 z-50">
+					<View
+						style={{
+							position: "absolute",
+							right: 2,
+							top: -4,
+							width: 20,
+							height: 20,
+							zIndex: 50,
+							backgroundColor: "white",
+							borderRadius: 999,
+						}}
+					>
 						<TouchableOpacity onPress={() => onDelete?.(index)}>
 							<Image
-								className="w-4 h-4"
+								style={{
+									width: 20,
+									height: 20,
+								}}
 								source={require("../../assets/clear.png")}
 							/>
 						</TouchableOpacity>
 					</View>
 				)}
-				{children}
+				{editing ? <View pointerEvents="none">{children}</View> : children}
 			</View>
 		</TouchableOpacity>
 	);
