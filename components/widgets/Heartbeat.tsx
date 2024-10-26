@@ -84,19 +84,11 @@ function Heartbeat() {
 				<View style={styles.modalOverlay}>
 					<View style={styles.modalContainer}>
 						<View style={styles.heartContainer}>
-							<Animatable.Text
-								animation="pulse"
-								easing="ease-out"
-								iterationCount="infinite"
-								style={styles.heartIcon}
-								direction="alternate"
-							>
-								❤️
-							</Animatable.Text>
+							<Ionicons name="heart-outline" size={160} color="white" />
 						</View>
 						<Text style={styles.modalText}>TAKE A BREATH!</Text>
 						<Button
-							color={colors.mainBg}
+							color={"rgb(227, 124, 255)"}
 							title="BREATHE"
 							onPress={handleBreathePress}
 						/>
@@ -178,7 +170,7 @@ const styles = StyleSheet.create({
 	modalText: {
 		fontSize: 20,
 		fontWeight: "bold",
-		marginBottom: 10,
-		color: "#ff3333",
+		margin: 10,
+		color: "black",
 	},
 });
